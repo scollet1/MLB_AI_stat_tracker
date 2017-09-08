@@ -1,7 +1,7 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    agent.py                                         :+:      :+:    :+:    #
+#    agent.py         	                                :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: scollet <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
@@ -25,30 +25,32 @@ EPISODES = 750
 
 
 def train(agent, fight_data):
-    #print "hello???"
-    for each, fight in fight_data.items():
-        print each
-        X = []
-        j = 0
-        for fighter in fight.items():
-            #print each
-            if each == 'results':
-                break
-            X.append(fighter.weight)
-            X.append(fighter.height)
-            X.append(fighter.reach)
-            X.append(fighter.wins)
-            X.append(fighter.losses)
-            X.append(fighter.draws)
-            X.append(fighter.no_contest)
-            #print j
-            #j += 1
-        X = np.asarray(X)
-        print X
-        y = fight['results'].winner
-        print y
-        #print fight['results'].winner[0]
-        #if fight.fID[0] in data['fighters']:
-        #        print data['fighters'][fight.fID[0]].height
-        agent.train(X, y)
-        score = model.evaluate(X, y, batch_size=128)
+	#print "hello???"
+	for e in range(1):
+		for each, fight in fight_data.items():
+			print each
+			X = []
+			j = 0
+			for each, fighter in fight.items():
+#				print each
+				if each == 'results':
+					break
+#				print fighter
+				X.append(fighter.weight)
+				X.append(fighter.height)
+				X.append(fighter.reach)
+				X.append(fighter.wins)
+				X.append(fighter.losses)
+				X.append(fighter.draws)
+				X.append(fighter.no_contest)
+			X = np.array(X)
+			X = X.reshape((1, 14))
+			print X
+			y = fight['results'].winner
+			y = np.array(y)
+#			print y
+			y = np.reshape(y, (1, 2))
+			print y
+#			agent.train(X, y)
+#			score = agent.model.evaluate(X, y, batch_size=128)
+#			print "this shit is wild", score, e
