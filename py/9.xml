@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<summary generated="2017-09-06T21:42:28Z" xmlns="http://feed.elasticstats.com/schema/mma/v1/events-summary.xsd">
+  <events>
+    <event id="77b7ed2e-b375-41a4-b0bc-7a212fc5e244" name="UFC 170: Rousey vs. McMann" scheduled="2014-02-23T00:00:00Z">
+      <venue country_code="USA" country="United States" state="Nevada" city="Las Vegas" name="Mandalay Bay Events Center"/>
+      <league id="141c0a36-dbcb-4d3f-9436-527cd271d38d" alias="MMA-UFC" name="Ultimate Fighting Championship"/>
+      <fights>
+        <fight id="0bedc237-1eb9-4e9a-a6e1-7cb7d58012ee" accolade="UFC Women's Bantamweight Title" scheduled_rounds="5">
+          <weight_class id="WBW" weight="126-135" description="Women's Bantamweight"/>
+          <fighters>
+            <fighter id="22e8a50c-dce3-4871-853e-5107f4a936e7" height="66" weight="135" reach="" stance="Orthodox" first_name="Sara" nick_name="" last_name="McMann">
+              <record wins="7" losses="0" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="d8385c60-39e8-43f1-b62b-01ebae5b8a75" height="67" weight="135" reach="66" stance="Orthodox" first_name="Ronda" nick_name="Rowdy" last_name="Rousey">
+              <record wins="8" losses="0" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 4666 -->
+        </fight>
+        <fight id="f859030c-8798-4a79-adc0-6ddd798fdb50" accolade="" scheduled_rounds="3">
+          <weight_class id="LHW" weight="186-205" description="Light Heavyweight"/>
+          <fighters>
+            <fighter id="6054cfdc-ecea-485a-bf77-db450f95ed7b" height="71" weight="205" reach="71" stance="Orthodox" first_name="Daniel" nick_name="DC" last_name="Cormier">
+              <record wins="13" losses="0" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="fc9c4353-2547-4690-9106-c3cddad2cc67" height="71" weight="205" reach="74" stance="Orthodox" first_name="Wanderlei" nick_name="The Axe Murderer" last_name="Silva">
+              <record wins="35" losses="12" draws="1" no_contests="1"/>
+            </fighter>
+            <fighter id="4ea6f3d9-7407-49e1-8305-4a93b44fcddd" height="73" weight="205" reach="74" stance="Southpaw" first_name="Chael" nick_name="" last_name="Sonnen">
+              <record wins="28" losses="14" draws="1" no_contests="0"/>
+            </fighter>
+            <fighter id="b4292595-f1dd-40c6-a9c4-4dcf2dd39cba" height="74" weight="205" reach="" stance="" first_name="Patrick" nick_name="Durkin" last_name="Cummins">
+              <record wins="4" losses="0" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 4706 -->
+        </fight>
+        <fight id="f67d1f8c-43f9-4e2d-8b23-1d79251937f2" accolade="" scheduled_rounds="5">
+          <weight_class id="LHW" weight="186-205" description="Light Heavyweight"/>
+          <fighters>
+            <fighter id="6054cfdc-ecea-485a-bf77-db450f95ed7b" height="71" weight="205" reach="71" stance="Orthodox" first_name="Daniel" nick_name="DC" last_name="Cormier">
+              <record wins="13" losses="0" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="65e8b5a6-12b6-4e28-82e4-d3333ba031bd" height="71" weight="205" reach="75" stance="Orthodox" first_name="Rashad" nick_name="Suga" last_name="Evans">
+              <record wins="19" losses="3" draws="1" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 4633 -->
+        </fight>
+        <fight id="02d2950b-66c5-4255-9724-545cedcbfbe6" accolade="" scheduled_rounds="3">
+          <weight_class id="WW" weight="156-170" description="Welterweight"/>
+          <fighters>
+            <fighter id="5448c152-b63c-4f59-b170-ffbe07f40a1c" height="72" weight="170" reach="77" stance="Orthodox" first_name="Rory" nick_name="Ares" last_name="MacDonald">
+              <record wins="15" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="9fd36558-5a89-42e0-a6aa-a8810510d2a4" height="72" weight="170" reach="72" stance="Southpaw" first_name="Demian" nick_name="" last_name="Maia">
+              <record wins="18" losses="5" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 4634 -->
+        </fight>
+        <fight id="4e284298-811c-4eae-abb4-a6e4590f49b2" accolade="" scheduled_rounds="3">
+          <weight_class id="WW" weight="156-170" description="Welterweight"/>
+          <fighters>
+            <fighter id="9cdac9eb-526e-45b8-9215-92b901388766" height="73" weight="170" reach="74" stance="Orthodox" first_name="Mike" nick_name="Quicksand" last_name="Pyle">
+              <record wins="25" losses="9" draws="1" no_contests="0"/>
+            </fighter>
+            <fighter id="5ecb1155-05a7-4b6b-a4d1-aa9050a342e5" height="71" weight="170" reach="75" stance="Orthodox" first_name="Anthony" nick_name="TJ" last_name="Waldburger">
+              <record wins="16" losses="8" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 4646 -->
+        </fight>
+        <fight id="d1e3665e-8586-4b5d-a8ff-ebc8c947a912" accolade="" scheduled_rounds="3">
+          <weight_class id="WW" weight="156-170" description="Welterweight"/>
+          <fighters>
+            <fighter id="2bddb45c-a6d4-4336-b1de-d504400c9d0a" height="72" weight="170" reach="" stance="Orthodox" first_name="Stephen" nick_name="Wonderboy" last_name="Thompson">
+              <record wins="9" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="e8dcbff9-5ca4-430d-9796-844efc7b0011" height="72" weight="170" reach="" stance="Orthodox" first_name="Robert" nick_name="" last_name="Whittaker">
+              <record wins="11" losses="4" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="8ee0a8bd-c0f0-46cd-81a2-18e006c13724" first_name="Mario" last_name="Yamasaki"/>
+          <result round="1" time="03:43" method="KO/TKO" submission="" endstrike="Punches" endtarget="Head" endposition="In Clinch" winner="2bddb45c-a6d4-4336-b1de-d504400c9d0a" draw="false"/>
+          <!-- 4657 -->
+        </fight>
+        <fight id="c8d2a2de-b9c5-4fda-af19-ebb635c6b55b" accolade="" scheduled_rounds="3">
+          <weight_class id="WBW" weight="126-135" description="Women's Bantamweight"/>
+          <fighters>
+            <fighter id="2358f159-a6ab-4f8e-8a2a-b7e3d2f0bb50" height="66" weight="135" reach="" stance="Orthodox" first_name="Jessica" nick_name="Evil" last_name="Eye">
+              <record wins="10" losses="2" draws="0" no_contests="1"/>
+            </fighter>
+            <fighter id="1cb458ad-7e35-431a-8042-1a25e92fa7ad" height="66" weight="135" reach="" stance="Orthodox" first_name="Alexis" nick_name="" last_name="Davis">
+              <record wins="16" losses="5" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="388b15ac-f2ac-4358-93b6-ce5b0c6667fd" first_name="Yves" last_name="Lavigne"/>
+          <result round="3" time="05:00" method="Decision - Split" submission="" endstrike="" endtarget="" endposition="" winner="1cb458ad-7e35-431a-8042-1a25e92fa7ad" draw="false">
+            <scores>
+            </scores>
+          </result>
+          <!-- 4667 -->
+        </fight>
+        <fight id="cb1d516a-ea3d-4d75-a997-d12e130c9b41" accolade="" scheduled_rounds="3">
+          <weight_class id="BW" weight="126-135" description="Bantamweight"/>
+          <fighters>
+            <fighter id="01e7ab79-0bc1-4b35-a662-1dcb83e0a575" height="66" weight="135" reach="" stance="Orthodox" first_name="Pedro" nick_name="The Young Punisher" last_name="Munhoz">
+              <record wins="10" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="f1417700-a3a4-4a2d-bd60-b8eff7f6bb03" height="65" weight="135" reach="68" stance="Orthodox" first_name="Raphael" nick_name="" last_name="Assuncao">
+              <record wins="22" losses="4" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="df41f0e1-25e2-4cc5-bbca-e67bd06da471" height="69" weight="135" reach="70" stance="Orthodox" first_name="Francisco" nick_name="Cisco" last_name="Rivera">
+              <record wins="10" losses="2" draws="0" no_contests="1"/>
+            </fighter>
+          </fighters>
+          <referee id="955a3c40-572a-4b52-a680-82097446d25b" first_name="Chris" last_name="Tognoni"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="f1417700-a3a4-4a2d-bd60-b8eff7f6bb03" draw="false">
+            <scores>
+            </scores>
+          </result>
+          <!-- 4656 -->
+        </fight>
+        <fight id="985c2fed-19a5-4cd5-9f44-54191af3bf56" accolade="" scheduled_rounds="3">
+          <weight_class id="BW" weight="126-135" description="Bantamweight"/>
+          <fighters>
+            <fighter id="c3802c69-2b6a-4bc0-baa7-a3d0a1e90b0d" height="68" weight="135" reach="68" stance="Orthodox" first_name="Bryan" nick_name="Kid Lightning" last_name="Caraway">
+              <record wins="18" losses="6" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="601d43cd-d671-4d83-bb27-e49ea5e7381a" height="70" weight="135" reach="" stance="Orthodox" first_name="Cody" nick_name="The Renegade" last_name="Gibson">
+              <record wins="11" losses="4" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="d0306a1f-6876-4863-a795-92a7a4456f6b" height="67" weight="135" reach="" stance="" first_name="Aljamain" nick_name="" last_name="Sterling">
+              <record wins="9" losses="0" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="7cb4f2da-4654-4a2a-a9a2-5082a65855be" height="72" weight="135" reach="" stance="Southpaw" first_name="Lucas" nick_name="Mineiro" last_name="Martins">
+              <record wins="14" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="c5f6fb3c-f884-4664-891d-bfbafc57febe" first_name="Herb" last_name="Dean"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="d0306a1f-6876-4863-a795-92a7a4456f6b" draw="false">
+            <scores>
+            </scores>
+          </result>
+          <!-- 4668 -->
+        </fight>
+        <fight id="6baf189f-7392-4023-90ec-fb3beb5aec24" accolade="" scheduled_rounds="3">
+          <weight_class id="FLW" weight="116-125" description="Flyweight"/>
+          <fighters>
+            <fighter id="30474efb-b34e-414b-bd8d-4af7b9ff9c36" height="65" weight="125" reach="" stance="Orthodox" first_name="Josh" nick_name="The Gremlin" last_name="Sampo">
+              <record wins="11" losses="3" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="51324f03-4aab-4f94-88c0-fc1c9da6896a" height="68" weight="125" reach="" stance="" first_name="Zach" nick_name="Fun Size" last_name="Makovsky">
+              <record wins="18" losses="4" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="955a3c40-572a-4b52-a680-82097446d25b" first_name="Chris" last_name="Tognoni"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="51324f03-4aab-4f94-88c0-fc1c9da6896a" draw="false">
+            <scores>
+            </scores>
+          </result>
+          <!-- 4677 -->
+        </fight>
+        <fight id="bc665cfb-d228-4888-b023-c4d007b61bbb" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="29ae2c48-f707-4d63-9d33-3e892e23a206" height="70" weight="155" reach="70" stance="Southpaw" first_name="Erik" nick_name="New Breed" last_name="Koch">
+              <record wins="14" losses="3" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="7e87f1f8-158c-4c75-a802-42191ca54577" height="68" weight="155" reach="72" stance="Orthodox" first_name="Rafaello" nick_name="Tractor" last_name="Oliveira">
+              <record wins="17" losses="7" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="388b15ac-f2ac-4358-93b6-ce5b0c6667fd" first_name="Yves" last_name="Lavigne"/>
+          <result round="1" time="01:24" method="KO/TKO" submission="" endstrike="Punches" endtarget="Head" endposition="From Guard" winner="29ae2c48-f707-4d63-9d33-3e892e23a206" draw="false"/>
+          <!-- 4675 -->
+        </fight>
+        <fight id="e14ab593-1bb7-411e-b05c-c8ab06e0a16a" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="a8d58b76-34b3-41d6-87ca-f1375274989d" height="68" weight="155" reach="" stance="" first_name="Yosdenis" nick_name="Pink Panther" last_name="Cedeno">
+              <record wins="9" losses="3" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="0bf4cdd5-fc91-4c6c-8e11-03b28e55effd" height="68" weight="155" reach="" stance="" first_name="Ernest" nick_name="EJ" last_name="Chavez">
+              <record wins="7" losses="0" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="955a3c40-572a-4b52-a680-82097446d25b" first_name="Chris" last_name="Tognoni"/>
+          <result round="3" time="05:00" method="Decision - Split" submission="" endstrike="" endtarget="" endposition="" winner="0bf4cdd5-fc91-4c6c-8e11-03b28e55effd" draw="false">
+            <scores>
+            </scores>
+          </result>
+          <!-- 4725 -->
+        </fight>
+      </fights>
+      <!-- 650 -->
+    </event>
+  </events>
+</summary>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<summary generated="2017-09-06T21:42:36Z" xmlns="http://feed.elasticstats.com/schema/mma/v1/events-summary.xsd">
+  <events>
+    <event id="c7b1fdf1-b444-4029-a436-b2df106b5945" name="UFC Fight Night 61: Bigfoot vs. Mir" scheduled="2015-02-23T00:00:00Z">
+      <venue country_code="BRA" country="Brazil" state="Rio Grande do Sul" city="Porto Alegre" name="Ginasio Gigantinho"/>
+      <league id="141c0a36-dbcb-4d3f-9436-527cd271d38d" alias="MMA-UFC" name="Ultimate Fighting Championship"/>
+      <fights>
+        <fight id="5a46314a-7cfb-489f-86a9-d98376033b6e" accolade="" scheduled_rounds="3">
+          <weight_class id="HW" weight="206-265" description="Heavyweight"/>
+          <fighters>
+            <fighter id="df5f71d9-e71c-446f-ab71-e34c201427f8" height="76" weight="264" reach="82" stance="Orthodox" first_name="Antonio" nick_name="Bigfoot" last_name="Silva">
+              <record wins="18" losses="6" draws="1" no_contests="0"/>
+            </fighter>
+            <fighter id="39685dc7-96a9-4a5e-9941-2f2068775624" height="75" weight="264" reach="79" stance="Southpaw" first_name="Frank" nick_name="" last_name="Mir">
+              <record wins="16" losses="9" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 5142 -->
+        </fight>
+        <fight id="c173c7c4-8592-4fc0-954a-b7c8eb1fdaf2" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="e7dfec10-4b6b-49b1-a668-402ba44812eb" height="71" weight="155" reach="75" stance="Orthodox" first_name="Edson" nick_name="Junior" last_name="Barboza">
+              <record wins="15" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="be2de121-34d3-4e62-955e-4773a9e955db" height="71" weight="155" reach="74" stance="Southpaw" first_name="Michael" nick_name="The Menace" last_name="Johnson">
+              <record wins="15" losses="8" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 5187 -->
+        </fight>
+        <fight id="ef8b1fe3-96cd-43a3-959b-2e1896954bdf" accolade="" scheduled_rounds="3">
+          <weight_class id="MW" weight="171-185" description="Middleweight"/>
+          <fighters>
+            <fighter id="cee0d4b2-42e9-4b14-89ad-ee881feb5735" height="73" weight="185" reach="" stance="Southpaw" first_name="Cezar" nick_name="Mutante" last_name="Ferreira">
+              <record wins="8" losses="3" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="76bad14a-a4c5-4a2d-86ce-5b6e4c8d5f68" height="74" weight="185" reach="" stance="" first_name="Sam" nick_name="Smilin'" last_name="Alvey">
+              <record wins="23" losses="6" draws="0" no_contests="1"/>
+            </fighter>
+          </fighters>
+          <!-- 5184 -->
+        </fight>
+        <fight id="ef0340ca-0cd5-4485-8799-58e22ad1ee47" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="8019e46f-89bd-486c-a06f-2e8dee077868" height="68" weight="155" reach="" stance="Orthodox" first_name="Rustam" nick_name="Tiger" last_name="Khabilov">
+              <record wins="17" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="e8e74348-5326-46b6-9540-4b26400ee2ab" height="70" weight="155" reach="" stance="Southpaw" first_name="Adriano" nick_name="" last_name="Martins">
+              <record wins="26" losses="7" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 5183 -->
+        </fight>
+        <fight id="71c98efe-6398-4bfd-9ed0-e6ec5c5ca5f1" accolade="" scheduled_rounds="3">
+          <weight_class id="BW" weight="126-135" description="Bantamweight"/>
+          <fighters>
+            <fighter id="e71ac045-987d-49df-ad0e-0e97ac23464d" height="66" weight="135" reach="71" stance="Southpaw" first_name="Iuri" nick_name="Marajo" last_name="Alcantara">
+              <record wins="31" losses="5" draws="0" no_contests="1"/>
+            </fighter>
+            <fighter id="277e17e5-687b-41e6-858b-4f3a386d0441" height="66" weight="135" reach="" stance="Orthodox" first_name="Frankie" nick_name="" last_name="Saenz">
+              <record wins="9" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 5200 -->
+        </fight>
+        <fight id="ecc67230-9753-46d7-93df-f0460e1a60a4" accolade="" scheduled_rounds="3">
+          <weight_class id="WW" weight="156-170" description="Welterweight"/>
+          <fighters>
+            <fighter id="bf587c50-bafe-4537-bf29-15a95c38c79c" height="73" weight="185" reach="" stance="Orthodox" first_name="Sean" nick_name="Tarzan" last_name="Strickland">
+              <record wins="15" losses="0" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="76e45f38-005f-47c5-b5d9-102068259599" height="72" weight="170" reach="" stance="Orthodox" first_name="Santiago" nick_name="El Rasta" last_name="Ponzinibbio">
+              <record wins="19" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 5181 -->
+        </fight>
+        <fight id="4eab5d23-87f1-4e6b-b1a9-60090f5d5231" accolade="" scheduled_rounds="3">
+          <weight_class id="BW" weight="126-135" description="Bantamweight"/>
+          <fighters>
+            <fighter id="601d43cd-d671-4d83-bb27-e49ea5e7381a" height="70" weight="135" reach="" stance="Orthodox" first_name="Cody" nick_name="The Renegade" last_name="Gibson">
+              <record wins="12" losses="5" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="d1b27114-169b-4bd2-afe6-773a4f559c0c" height="67" weight="145" reach="" stance="Orthodox" first_name="Douglas" nick_name="" last_name="Silva de Andrade">
+              <record wins="22" losses="1" draws="0" no_contests="1"/>
+            </fighter>
+          </fighters>
+          <!-- 5201 -->
+        </fight>
+        <fight id="4ce3e424-23e2-4119-8832-06021710ed6c" accolade="" scheduled_rounds="3">
+          <weight_class id="WBW" weight="126-135" description="Women's Bantamweight"/>
+          <fighters>
+            <fighter id="e408ff62-2b8a-4897-a30c-1e339620a982" height="62" weight="135" reach="" stance="Orthodox" first_name="Jessica" nick_name="Bate Estaca" last_name="Andrade">
+              <record wins="12" losses="3" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="e965863f-1490-44b6-a86b-32d265567179" height="66" weight="135" reach="" stance="" first_name="Marion" nick_name="The Bruiser" last_name="Reneau">
+              <record wins="7" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 5202 -->
+        </fight>
+        <fight id="1313ac19-5ab3-486c-a4cc-4c447abd31b7" accolade="" scheduled_rounds="3">
+          <weight_class id="WW" weight="156-170" description="Welterweight"/>
+          <fighters>
+            <fighter id="12138025-9e7e-4498-a271-ef107c70425c" height="71" weight="170" reach="" stance="Orthodox" first_name="William" nick_name="Patolino" last_name="Macario">
+              <record wins="7" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="bf8440dd-b60b-461c-b13f-d98e9ca5f785" height="76" weight="170" reach="" stance="Orthodox" first_name="Matt" nick_name="" last_name="Dwyer">
+              <record wins="7" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 5203 -->
+        </fight>
+        <fight id="d1f5ada5-88d8-4eb9-b294-42dbadea7208" accolade="" scheduled_rounds="3">
+          <weight_class id="WW" weight="156-170" description="Welterweight"/>
+          <fighters>
+            <fighter id="5ecb1155-05a7-4b6b-a4d1-aa9050a342e5" height="71" weight="170" reach="75" stance="Orthodox" first_name="Anthony" nick_name="TJ" last_name="Waldburger">
+              <record wins="16" losses="9" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="ecfc7017-16fd-49e4-a316-8e78b2239dc4" height="70" weight="170" reach="" stance="Orthodox" first_name="Wendell" nick_name="The Machine" last_name="Oliveira Marques">
+              <record wins="24" losses="8" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 5182 -->
+        </fight>
+        <fight id="8eee7884-eacb-41cb-9b05-e6d79fa42988" accolade="" scheduled_rounds="3">
+          <weight_class id="FTW" weight="136-145" description="Featherweight"/>
+          <fighters>
+            <fighter id="0aee8996-3150-40b0-b547-cbf768efe6d8" height="69" weight="155" reach="" stance="Orthodox" first_name="Tiago" nick_name="Trator" last_name="dos Santos e Silva">
+              <record wins="19" losses="4" draws="2" no_contests="1"/>
+            </fighter>
+            <fighter id="ac70ef42-a695-4b27-af3f-ccd3daacaaf7" height="72" weight="155" reach="" stance="" first_name="Mike" nick_name="El Cucuy" last_name="de la Torre">
+              <record wins="12" losses="4" draws="0" no_contests="1"/>
+            </fighter>
+          </fighters>
+          <!-- 5204 -->
+        </fight>
+        <fight id="d988fcfe-2337-4779-8bbe-4f799f54eb21" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="3d5c7b45-cb01-40cc-b41f-11973add077c" height="73" weight="155" reach="" stance="" first_name="Josh" nick_name="" last_name="Shockley">
+              <record wins="11" losses="3" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="047d278f-a586-45bf-934f-d461376bce20" height="69" weight="155" reach="" stance="Orthodox" first_name="Ivan" nick_name="Batman" last_name="Jorge">
+              <record wins="25" losses="4" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 5180 -->
+        </fight>
+      </fights>
+      <!-- 703 -->
+    </event>
+  </events>
+</summary>

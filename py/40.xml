@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<summary generated="2017-09-06T21:42:33Z" xmlns="http://feed.elasticstats.com/schema/mma/v1/events-summary.xsd">
+  <events>
+    <event id="9be0b51a-bc85-4016-a580-6dde4add340e" name="UFC Fight Night 54: MacDonald vs. Saffiedine" scheduled="2014-10-04T23:00:00Z">
+      <venue country_code="CAN" country="Canada" state="Nova Scotia" city="Halifax" name="Scotiabank Centre"/>
+      <league id="141c0a36-dbcb-4d3f-9436-527cd271d38d" alias="MMA-UFC" name="Ultimate Fighting Championship"/>
+      <fights>
+        <fight id="14cd2daa-8371-4bf7-8e92-d7e8a95352e8" accolade="" scheduled_rounds="5">
+          <weight_class id="WW" weight="156-170" description="Welterweight"/>
+          <fighters>
+            <fighter id="cc084cca-3558-41e0-a778-62fa2903266b" height="69" weight="170" reach="71" stance="Orthodox" first_name="Tarec" nick_name="Sponge" last_name="Saffiedine">
+              <record wins="15" losses="4" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="5448c152-b63c-4f59-b170-ffbe07f40a1c" height="72" weight="170" reach="77" stance="Orthodox" first_name="Rory" nick_name="Ares" last_name="MacDonald">
+              <record wins="18" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="c5f6fb3c-f884-4664-891d-bfbafc57febe" first_name="Herb" last_name="Dean"/>
+          <result round="3" time="01:28" method="KO/TKO" submission="" endstrike="Punch" endtarget="Head" endposition="At Distance" winner="5448c152-b63c-4f59-b170-ffbe07f40a1c" draw="false"/>
+          <!-- 4975 -->
+        </fight>
+        <fight id="d9dec05c-6b3f-44a1-8aa2-1a1a9d9b9113" accolade="" scheduled_rounds="3">
+          <weight_class id="BW" weight="126-135" description="Bantamweight"/>
+          <fighters>
+            <fighter id="c3802c69-2b6a-4bc0-baa7-a3d0a1e90b0d" height="68" weight="135" reach="68" stance="Orthodox" first_name="Bryan" nick_name="Kid Lightning" last_name="Caraway">
+              <record wins="19" losses="7" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="f1417700-a3a4-4a2d-bd60-b8eff7f6bb03" height="65" weight="135" reach="68" stance="Orthodox" first_name="Raphael" nick_name="" last_name="Assuncao">
+              <record wins="23" losses="4" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="7fedcb17-c9f3-4fdc-be2f-93fb116b2fdf" first_name="Dan" last_name="Miragliotta"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="f1417700-a3a4-4a2d-bd60-b8eff7f6bb03" draw="false">
+            <scores>
+              <judge id="5b2946a2-e28e-40a8-ba71-083726279bfa" winner_score="30" loser_score="27" first_name="Craig" last_name="Smith"/>
+              <judge id="82a32287-8228-414f-ae51-eb4c40c3fb98" winner_score="30" loser_score="27" first_name="Chris" last_name="Lee"/>
+              <judge id="e0f7bce6-6482-4c16-8b5f-69820deff8d3" winner_score="30" loser_score="27" first_name="Doug" last_name="Crosby"/>
+            </scores>
+          </result>
+          <!-- 4930 -->
+        </fight>
+        <fight id="945d275b-1390-4b62-b8d7-37beec5f3165" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="a8d58b76-34b3-41d6-87ca-f1375274989d" height="68" weight="155" reach="" stance="" first_name="Yosdenis" nick_name="Pink Panther" last_name="Cedeno">
+              <record wins="10" losses="4" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="d49524cd-ab48-49e3-9235-15508b288180" height="70" weight="170" reach="" stance="" first_name="Chad" nick_name="" last_name="Laprise">
+              <record wins="9" losses="0" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="b049c28a-8ada-4b75-849b-17da45287a16" first_name="Cyril" last_name="Desjardins"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="d49524cd-ab48-49e3-9235-15508b288180" draw="false">
+            <scores>
+              <judge id="19622d63-99ed-4633-9462-a72816439243" winner_score="30" loser_score="27" first_name="Ian" last_name="Bridgeman"/>
+              <judge id="69a81ff8-2f47-4f8c-b48e-5462e7b4e00c" winner_score="30" loser_score="27" first_name="Craig" last_name="Smith"/>
+              <judge id="f36e0e5a-7b66-4749-bad3-6f72e811ee3c" winner_score="30" loser_score="27" first_name="Don" last_name="Robinson"/>
+            </scores>
+          </result>
+          <!-- 5014 -->
+        </fight>
+        <fight id="dd8b2cd9-cce5-4f3b-aefa-a2b9c4369f9b" accolade="" scheduled_rounds="3">
+          <weight_class id="MW" weight="171-185" description="Middleweight"/>
+          <fighters>
+            <fighter id="19134630-5105-4c3d-97fd-9f3b92a904cd" height="69" weight="185" reach="" stance="" first_name="Bruno" nick_name="Carioca" last_name="Santos">
+              <record wins="14" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="099a0a9f-ed1b-4957-9c4d-f7c9f4549d29" height="73" weight="185" reach="" stance="" first_name="Elias" nick_name="The Spartan" last_name="Theodorou">
+              <record wins="10" losses="0" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="45fec06c-af5b-4ba5-b885-f0e7e018e6d5" first_name="Brad" last_name="Jardine"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="099a0a9f-ed1b-4957-9c4d-f7c9f4549d29" draw="false">
+            <scores>
+              <judge id="793c97c3-a3f9-412d-9d2b-71985f8469bb" winner_score="29" loser_score="28" first_name="Ian" last_name="Bridgeman"/>
+              <judge id="e3154ef7-24bc-4a47-9fd2-cadfef8b1ea1" winner_score="29" loser_score="28" first_name="Don" last_name="Robinson"/>
+              <judge id="ebe6451a-3114-4647-87cf-aa4725089cdf" winner_score="29" loser_score="28" first_name="Robert" last_name="MacAvoy"/>
+            </scores>
+          </result>
+          <!-- 4995 -->
+        </fight>
+        <fight id="da1b33e6-f887-4b4c-b23c-d73ec1e689e3" accolade="" scheduled_rounds="3">
+          <weight_class id="WW" weight="156-170" description="Welterweight"/>
+          <fighters>
+            <fighter id="7252f1dc-cbfc-4a00-b502-8e6db8126859" height="73" weight="185" reach="" stance="Orthodox" first_name="Nordine" nick_name="" last_name="Taleb">
+              <record wins="10" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="beadd391-1fb2-485d-a8c2-544edf83cf43" height="72" weight="170" reach="" stance="" first_name="Jingliang" nick_name="The Leech" last_name="Li">
+              <record wins="9" losses="3" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="c5f6fb3c-f884-4664-891d-bfbafc57febe" first_name="Herb" last_name="Dean"/>
+          <result round="3" time="05:00" method="Decision - Split" submission="" endstrike="" endtarget="" endposition="" winner="7252f1dc-cbfc-4a00-b502-8e6db8126859" draw="false">
+            <scores>
+              <judge id="79c39f36-8bc8-4967-90ec-cfe85190ea12" winner_score="30" loser_score="27" first_name="Craig" last_name="Smith"/>
+              <judge id="94abb04d-b681-4202-b64d-dc0c75ca3a44" winner_score="28" loser_score="29" first_name="Chris" last_name="Lee"/>
+              <judge id="ac6d14db-1711-4d7f-94c5-273a94e93940" winner_score="29" loser_score="28" first_name="Robert" last_name="MacAvoy"/>
+            </scores>
+          </result>
+          <!-- 5006 -->
+        </fight>
+        <fight id="633406ba-8a1f-44c4-8b61-940fbf0443ab" accolade="" scheduled_rounds="3">
+          <weight_class id="BW" weight="126-135" description="Bantamweight"/>
+          <fighters>
+            <fighter id="62b4f41b-5f2a-454e-8c6a-ab34f02d72cb" height="65" weight="135" reach="" stance="Southpaw" first_name="Mitch" nick_name="" last_name="Gagnon">
+              <record wins="12" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="2d8a60d1-9afe-44a3-af9a-d88534917637" height="68" weight="135" reach="" stance="" first_name="Roman" nick_name="" last_name="Salazar">
+              <record wins="9" losses="3" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="b049c28a-8ada-4b75-849b-17da45287a16" first_name="Cyril" last_name="Desjardins"/>
+          <result round="1" time="02:06" method="Submission" submission="Rear Naked Choke" endstrike="" endtarget="" endposition="From Back Control" winner="62b4f41b-5f2a-454e-8c6a-ab34f02d72cb" draw="false"/>
+          <!-- 5015 -->
+        </fight>
+        <fight id="fc4c299b-1bd7-4d6c-9408-463c3c1e6226" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="75fdf5bc-ffe8-4251-ad4c-97e234e17db3" height="72" weight="155" reach="76" stance="Orthodox" first_name="Anthony" nick_name="The Assassin" last_name="Njokuani">
+              <record wins="16" losses="9" draws="0" no_contests="1"/>
+            </fighter>
+            <fighter id="58e0daed-e626-419c-b122-2a17b1395424" height="68" weight="155" reach="72" stance="Switch" first_name="Daron" nick_name="Detroit Superstar" last_name="Cruickshank">
+              <record wins="16" losses="5" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="7fedcb17-c9f3-4fdc-be2f-93fb116b2fdf" first_name="Dan" last_name="Miragliotta"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="58e0daed-e626-419c-b122-2a17b1395424" draw="false">
+            <scores>
+              <judge id="5584c708-4093-425f-ac6a-4613c9278f3d" winner_score="30" loser_score="27" first_name="Don" last_name="Robinson"/>
+              <judge id="ac2babfe-265e-474c-bcac-74cd03106e2c" winner_score="30" loser_score="27" first_name="Ian" last_name="Bridgeman"/>
+              <judge id="c8f789ff-cfea-4773-bd43-4a364f4022db" winner_score="30" loser_score="27" first_name="Doug" last_name="Crosby"/>
+            </scores>
+          </result>
+          <!-- 5026 -->
+        </fight>
+        <fight id="99a9ba9a-cd55-4361-9d7f-c6e1f11002c5" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="0747aa23-a1de-4b12-838e-1b0d68fdda6d" height="71" weight="155" reach="" stance="" first_name="Jake" nick_name="The Librarian" last_name="Lindsey">
+              <record wins="9" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="85e595f0-05b3-4b91-86a4-9b943d67b75b" height="69" weight="170" reach="" stance="Southpaw" first_name="Olivier" nick_name="" last_name="Aubin-Mercier">
+              <record wins="5" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="45fec06c-af5b-4ba5-b885-f0e7e018e6d5" first_name="Brad" last_name="Jardine"/>
+          <result round="2" time="03:22" method="Submission" submission="Other - Choke" endstrike="" endtarget="" endposition="From Side Control" winner="85e595f0-05b3-4b91-86a4-9b943d67b75b" draw="false"/>
+          <!-- 5016 -->
+        </fight>
+        <fight id="9ca843f4-70d6-493c-9617-87f33ce1e845" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="412e96bd-dd6f-4dcd-ab14-dcfd10c1dacb" height="70" weight="155" reach="" stance="" first_name="Paul" nick_name="The Irish Dragon" last_name="Felder">
+              <record wins="9" losses="0" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="0b22043a-19e9-4add-92b7-c5816abc87f7" height="71" weight="155" reach="" stance="" first_name="Jason" nick_name="" last_name="Saggo">
+              <record wins="10" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="c5f6fb3c-f884-4664-891d-bfbafc57febe" first_name="Herb" last_name="Dean"/>
+          <result round="3" time="05:00" method="Decision - Split" submission="" endstrike="" endtarget="" endposition="" winner="412e96bd-dd6f-4dcd-ab14-dcfd10c1dacb" draw="false">
+            <scores>
+              <judge id="47aa7cd9-8a38-4da5-9b08-161ef6acd8b6" winner_score="28" loser_score="29" first_name="Chris" last_name="Lee"/>
+              <judge id="69d3986b-9a9e-43d8-ae5c-7cbc112daf8b" winner_score="29" loser_score="28" first_name="Craig" last_name="Smith"/>
+              <judge id="9762c23a-68d2-4b38-a7e3-51e6647beb2f" winner_score="29" loser_score="28" first_name="Robert" last_name="MacAvoy"/>
+            </scores>
+          </result>
+          <!-- 5017 -->
+        </fight>
+        <fight id="04db5292-16dc-462e-983b-687922c5cd9e" accolade="" scheduled_rounds="3">
+          <weight_class id="FLW" weight="116-125" description="Flyweight"/>
+          <fighters>
+            <fighter id="7185c467-a0b3-4d72-9af8-cc4fba25680d" height="70" weight="125" reach="" stance="Orthodox" first_name="Patrick" nick_name="The Hooligan" last_name="Holohan">
+              <record wins="10" losses="1" draws="1" no_contests="0"/>
+            </fighter>
+            <fighter id="4a71710a-daf7-47c1-b817-7ea89117ab0e" height="67" weight="125" reach="" stance="Orthodox" first_name="Chris" nick_name="" last_name="Kelades">
+              <record wins="8" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="b049c28a-8ada-4b75-849b-17da45287a16" first_name="Cyril" last_name="Desjardins"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="4a71710a-daf7-47c1-b817-7ea89117ab0e" draw="false">
+            <scores>
+              <judge id="96f9eb8b-f975-4bff-a941-2dcf578ed10d" winner_score="29" loser_score="28" first_name="Robert" last_name="MacAvoy"/>
+              <judge id="98750264-3058-4950-8690-eb08b293566e" winner_score="29" loser_score="28" first_name="Craig" last_name="Smith"/>
+              <judge id="c4a590f7-57ce-4a31-b3f3-a2e1e45fc69f" winner_score="29" loser_score="28" first_name="Chris" last_name="Lee"/>
+            </scores>
+          </result>
+          <!-- 5021 -->
+        </fight>
+        <fight id="732c537c-ffd7-410d-9f76-daebc9fa0cd7" accolade="" scheduled_rounds="3">
+          <weight_class id="WW" weight="156-170" description="Welterweight"/>
+          <fighters>
+            <fighter id="d86de59a-281a-4ebf-826d-2e69d6243720" height="71" weight="170" reach="" stance="" first_name="Albert" nick_name="" last_name="Tumenov">
+              <record wins="14" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="bf8440dd-b60b-461c-b13f-d98e9ca5f785" height="76" weight="170" reach="" stance="Orthodox" first_name="Matt" nick_name="" last_name="Dwyer">
+              <record wins="7" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="7fedcb17-c9f3-4fdc-be2f-93fb116b2fdf" first_name="Dan" last_name="Miragliotta"/>
+          <result round="1" time="01:03" method="KO/TKO" submission="" endstrike="Kick" endtarget="Head" endposition="At Distance" winner="d86de59a-281a-4ebf-826d-2e69d6243720" draw="false"/>
+          <!-- 5048 -->
+        </fight>
+        <fight id="f193b9fa-ba4f-4f17-b2f0-0f513df18fc5" accolade="" scheduled_rounds="3">
+          <weight_class id="BW" weight="126-135" description="Bantamweight"/>
+          <fighters>
+            <fighter id="01e7ab79-0bc1-4b35-a662-1dcb83e0a575" height="66" weight="135" reach="" stance="Orthodox" first_name="Pedro" nick_name="The Young Punisher" last_name="Munhoz">
+              <record wins="12" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="a489b340-90c1-4788-ba05-aace3fccc42d" height="68" weight="155" reach="" stance="" first_name="Jerrod" nick_name="" last_name="Sanders">
+              <record wins="14" losses="3" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="45fec06c-af5b-4ba5-b885-f0e7e018e6d5" first_name="Brad" last_name="Jardine"/>
+          <result round="1" time="00:39" method="Submission" submission="Guillotine Choke" endstrike="" endtarget="" endposition="On Ground" winner="01e7ab79-0bc1-4b35-a662-1dcb83e0a575" draw="false"/>
+          <!-- 5018 -->
+        </fight>
+      </fights>
+      <!-- 688 -->
+    </event>
+  </events>
+</summary>
