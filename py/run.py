@@ -18,11 +18,13 @@ import objects
 import requests
 import construct
 import network
+import csv
 from copy import deepcopy
 #class Person_Object():
 
 #class Agent():
 EPOCHS = 500
+FILE_NAME = "../fight_data.csv"
 
 '''
 def feed(data):
@@ -48,11 +50,31 @@ def run(query):
 #feed(fighter_list)
 #def pull(data_file):
 
+def write_to_file(fight_data):
+    with open(FILE_NAME, 'wb') as csvfile:
+        writer = csv.writer(csvfile, delimiter = ',')
+        for each, fight in fight_data:
+            for each, fighter in fight_data:
+                writer.write(fighter.weight)
+                writer.write(fighter.weight)
+                writer.write(fighter.weight)
+                writer.write(fighter.weight)
+                writer.write(fighter.weight)
+                writer.write(fighter.weight)
+                writer.write(fighter.weight)
+                writer.write(fighter.weight)
+            writer.write()
+            writer.write('\n')
+
 def run():
     agent = objects.Agent(14, 2)
     fight_data = {}
     #data['fighters'] = construct.fighters('data.xml')
     fight_data = construct.fights('schedule.xml')
+    #for each, fight in fight_data.items():
+    #    print each
+#   sys.exit(0)
+#   write_to_file(fight_data)
     network.train(agent, fight_data)
 
 run()
