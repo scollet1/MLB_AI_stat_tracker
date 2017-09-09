@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<summary generated="2017-09-06T21:42:36Z" xmlns="http://feed.elasticstats.com/schema/mma/v1/events-summary.xsd">
+  <events>
+    <event id="1a0beb4f-13ff-4ed4-b7bb-eb5ccd685f1a" name="UFC 182: Jones vs. Cormier" scheduled="2015-01-04T00:00:00Z">
+      <venue country_code="USA" country="United States" state="Nevada" city="Las Vegas" name="MGM Grand Garden Arena"/>
+      <league id="141c0a36-dbcb-4d3f-9436-527cd271d38d" alias="MMA-UFC" name="Ultimate Fighting Championship"/>
+      <fights>
+        <fight id="abf47938-572c-432a-879f-3de9320d6928" accolade="UFC Light Heavyweight Title" scheduled_rounds="5">
+          <weight_class id="LHW" weight="186-205" description="Light Heavyweight"/>
+          <fighters>
+            <fighter id="f6b1c82b-bc52-40cb-858b-5ca1d9873ee7" height="76" weight="205" reach="85" stance="Orthodox" first_name="Jon" nick_name="Bones" last_name="Jones">
+              <record wins="21" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="6054cfdc-ecea-485a-bf77-db450f95ed7b" height="71" weight="205" reach="71" stance="Orthodox" first_name="Daniel" nick_name="DC" last_name="Cormier">
+              <record wins="15" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="c5f6fb3c-f884-4664-891d-bfbafc57febe" first_name="Herb" last_name="Dean"/>
+          <result round="5" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="f6b1c82b-bc52-40cb-858b-5ca1d9873ee7" draw="false">
+            <scores>
+              <judge id="4530e938-1c91-40c1-949f-9bd7e69dd933" winner_score="49" loser_score="46" first_name="Cardo" last_name="Urso"/>
+              <judge id="4f59986b-97a7-4758-abba-db0365af9147" winner_score="49" loser_score="46" first_name="Tony" last_name="Weeks"/>
+              <judge id="6e3b7c4b-303c-4b26-a36c-58b3b25a6ea9" winner_score="49" loser_score="46" first_name="Marcos" last_name="Rosales"/>
+            </scores>
+          </result>
+          <!-- 4906 -->
+        </fight>
+        <fight id="34c6370b-30f2-4472-bdd5-02439a5a6626" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="3acc9744-cc4b-44ed-ab61-fb4af88e99e2" height="71" weight="155" reach="73" stance="Orthodox" first_name="Myles" nick_name="Fury" last_name="Jury">
+              <record wins="15" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="9b02cb42-2c04-468a-9d69-55861c80d08a" height="72" weight="155" reach="73" stance="Orthodox" first_name="Donald" nick_name="Cowboy" last_name="Cerrone">
+              <record wins="27" losses="6" draws="0" no_contests="1"/>
+            </fighter>
+          </fighters>
+          <referee id="6b3a35f6-4894-46ff-b5c8-1e2579decd94" first_name="John" last_name="McCarthy"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="9b02cb42-2c04-468a-9d69-55861c80d08a" draw="false">
+            <scores>
+              <judge id="3a9ad3de-e076-4a45-9d73-97b3a8003dec" winner_score="30" loser_score="27" first_name="Chris" last_name="Lee"/>
+              <judge id="b16739cb-b18d-4744-b3f9-d9545f06d29e" winner_score="30" loser_score="27" first_name="Sal" last_name="D'amato"/>
+              <judge id="c8d2405d-661b-46bd-84d6-340b123f5787" winner_score="30" loser_score="27" first_name="Glenn" last_name="Trowbridge"/>
+            </scores>
+          </result>
+          <!-- 5114 -->
+        </fight>
+        <fight id="9e81740d-bc99-451d-8a0f-da3ece079e9d" accolade="" scheduled_rounds="3">
+          <weight_class id="MW" weight="171-185" description="Middleweight"/>
+          <fighters>
+            <fighter id="0acced6a-edac-4bf7-ab2d-771c1b2d238c" height="73" weight="185" reach="75" stance="Orthodox" first_name="Brad" nick_name="" last_name="Tavares">
+              <record wins="13" losses="3" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="5d5f18af-d47a-4aea-bf17-a998d7b4f906" height="72" weight="185" reach="74" stance="Orthodox" first_name="Nate" nick_name="The Great" last_name="Marquardt">
+              <record wins="33" losses="14" draws="2" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="388b15ac-f2ac-4358-93b6-ce5b0c6667fd" first_name="Yves" last_name="Lavigne"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="0acced6a-edac-4bf7-ab2d-771c1b2d238c" draw="false">
+            <scores>
+              <judge id="270ced7f-48cc-4d0e-afe7-82f34236c5aa" winner_score="30" loser_score="27" first_name="Adalaide" last_name="Byrd"/>
+              <judge id="44df2262-fc79-48e6-a0f3-64144c70427d" winner_score="30" loser_score="27" first_name="Marcos" last_name="Rosales"/>
+              <judge id="7cec6e01-1411-42b4-b2d1-9f8508017b83" winner_score="30" loser_score="27" first_name="Cardo" last_name="Urso"/>
+            </scores>
+          </result>
+          <!-- 5104 -->
+        </fight>
+        <fight id="ed83cbfa-69cb-4933-a471-7376e4bc9f74" accolade="" scheduled_rounds="3">
+          <weight_class id="FLW" weight="116-125" description="Flyweight"/>
+          <fighters>
+            <fighter id="cac01c7a-4f40-4d00-962a-41cb933673b2" height="63" weight="125" reach="" stance="Orthodox" first_name="Louis" nick_name="Goodnight" last_name="Gaudinot">
+              <record wins="6" losses="4" draws="0" no_contests="1"/>
+            </fighter>
+            <fighter id="20ac9e6b-1be4-4631-b572-d7c1ba5e4dcc" height="65" weight="125" reach="" stance="Orthodox" first_name="Kyoji" nick_name="" last_name="Horiguchi">
+              <record wins="15" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="c5f6fb3c-f884-4664-891d-bfbafc57febe" first_name="Herb" last_name="Dean"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="20ac9e6b-1be4-4631-b572-d7c1ba5e4dcc" draw="false">
+            <scores>
+              <judge id="1074ef25-acda-4e8e-95c5-e95195eff581" winner_score="30" loser_score="27" first_name="Sal" last_name="D'amato"/>
+              <judge id="443f1020-f4b4-4554-ae61-ec79fbbc1232" winner_score="30" loser_score="27" first_name="Tony" last_name="Weeks"/>
+              <judge id="f5965a6c-65c5-417f-8438-8d24fe3b427a" winner_score="29" loser_score="28" first_name="Glenn" last_name="Trowbridge"/>
+            </scores>
+          </result>
+          <!-- 5106 -->
+        </fight>
+        <fight id="2f6891af-a3ae-4c33-b118-04ea9605b43c" accolade="" scheduled_rounds="3">
+          <weight_class id="WW" weight="156-170" description="Welterweight"/>
+          <fighters>
+            <fighter id="c9ead2c1-2967-491e-8d61-756411201679" height="70" weight="170" reach="74" stance="Orthodox" first_name="Josh" nick_name="The People's Warrior" last_name="Burkman">
+              <record wins="27" losses="11" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="af664f3b-69bb-489b-a32b-6505f9d82d08" height="69" weight="170" reach="71" stance="Southpaw" first_name="Hector" nick_name="Lightning" last_name="Lombard">
+              <record wins="35" losses="4" draws="1" no_contests="1"/>
+            </fighter>
+          </fighters>
+          <referee id="6b3a35f6-4894-46ff-b5c8-1e2579decd94" first_name="John" last_name="McCarthy"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="af664f3b-69bb-489b-a32b-6505f9d82d08" draw="false">
+            <scores>
+              <judge id="565b1ee6-23e5-4c13-9c43-e4fc3a753e0b" winner_score="30" loser_score="27" first_name="Marcos" last_name="Rosales"/>
+              <judge id="72f40be6-d4b4-4a14-ac0a-c0582df33c7e" winner_score="30" loser_score="27" first_name="Cardo" last_name="Urso"/>
+              <judge id="8df277ff-cd08-4e09-bc1a-bae596fd5723" winner_score="29" loser_score="28" first_name="Patricia" last_name="Morse-Jarman"/>
+            </scores>
+          </result>
+          <!-- 5087 -->
+        </fight>
+        <fight id="6155fab5-eef9-4ce0-8975-7026cd4da25c" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="412e96bd-dd6f-4dcd-ab14-dcfd10c1dacb" height="70" weight="155" reach="" stance="" first_name="Paul" nick_name="The Irish Dragon" last_name="Felder">
+              <record wins="10" losses="0" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="e45be69e-df44-4da8-8a53-9a11ea309e34" height="69" weight="155" reach="71" stance="Orthodox" first_name="Danny" nick_name="Last Call" last_name="Castillo">
+              <record wins="17" losses="8" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="388b15ac-f2ac-4358-93b6-ce5b0c6667fd" first_name="Yves" last_name="Lavigne"/>
+          <result round="2" time="02:09" method="KO/TKO" submission="" endstrike="Spinning Back Fist" endtarget="Head" endposition="At Distance" winner="412e96bd-dd6f-4dcd-ab14-dcfd10c1dacb" draw="false"/>
+          <!-- 5120 -->
+        </fight>
+        <fight id="3a75e57f-3060-4106-8434-b2639b79427a" accolade="" scheduled_rounds="3">
+          <weight_class id="BW" weight="126-135" description="Bantamweight"/>
+          <fighters>
+            <fighter id="69e5b921-2e95-41fe-ade2-c11e969c5474" height="64" weight="135" reach="71" stance="Southpaw" first_name="Marcus" nick_name="The Bama Beast" last_name="Brimage">
+              <record wins="7" losses="4" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="1c05bf9c-0765-4dc4-8713-6f32ba67d47c" height="67" weight="135" reach="" stance="" first_name="Cody" nick_name="No Love" last_name="Garbrandt">
+              <record wins="6" losses="0" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="c5f6fb3c-f884-4664-891d-bfbafc57febe" first_name="Herb" last_name="Dean"/>
+          <result round="3" time="04:50" method="KO/TKO" submission="" endstrike="Punches" endtarget="Head" endposition="" winner="1c05bf9c-0765-4dc4-8713-6f32ba67d47c" draw="false"/>
+          <!-- 5157 -->
+        </fight>
+        <fight id="fc64e5ab-9894-4507-ae4d-fbaa0d4546ad" accolade="" scheduled_rounds="3">
+          <weight_class id="HW" weight="206-265" description="Heavyweight"/>
+          <fighters>
+            <fighter id="47178f81-7770-49ff-af8b-0b15d51f6fe2" height="72" weight="260" reach="" stance="Southpaw" first_name="Shawn" nick_name="The Savage" last_name="Jordan">
+              <record wins="17" losses="6" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="6b686541-a1b2-4283-adce-e81ac2dd94c8" height="75" weight="265" reach="" stance="" first_name="Jared" nick_name="Killa" last_name="Cannonier">
+              <record wins="7" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="6b3a35f6-4894-46ff-b5c8-1e2579decd94" first_name="John" last_name="McCarthy"/>
+          <result round="1" time="02:57" method="KO/TKO" submission="" endstrike="Punch" endtarget="Head" endposition="At Distance" winner="47178f81-7770-49ff-af8b-0b15d51f6fe2" draw="false"/>
+          <!-- 5107 -->
+        </fight>
+        <fight id="ff21161d-82bb-4549-bda9-c7cf34d7fd8f" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="a22a279c-6da2-4383-b583-3a26b08f0668" height="67" weight="155" reach="71" stance="Orthodox" first_name="Rodrigo" nick_name="" last_name="Damm">
+              <record wins="12" losses="9" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="616a2de2-e67c-49c5-b44a-fa156999d631" height="70" weight="155" reach="70" stance="Southpaw" first_name="Evan" nick_name="" last_name="Dunham">
+              <record wins="15" losses="6" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="955a3c40-572a-4b52-a680-82097446d25b" first_name="Chris" last_name="Tognoni"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="616a2de2-e67c-49c5-b44a-fa156999d631" draw="false">
+            <scores>
+              <judge id="1f5df68e-20d8-4038-a815-03eebf9ff08b" winner_score="30" loser_score="27" first_name="Tony" last_name="Weeks"/>
+              <judge id="379d6751-5d50-4ea4-8e97-a570340ce5bd" winner_score="30" loser_score="27" first_name="Glenn" last_name="Trowbridge"/>
+              <judge id="fe9dcb3d-c7eb-46ca-9e01-24af7532faaf" winner_score="30" loser_score="27" first_name="Patricia" last_name="Morse-Jarman"/>
+            </scores>
+          </result>
+          <!-- 5093 -->
+        </fight>
+        <fight id="a4e9fd09-a2c6-4ef4-aaa0-69e33ca50cdd" accolade="" scheduled_rounds="3">
+          <weight_class id="WW" weight="156-170" description="Welterweight"/>
+          <fighters>
+            <fighter id="eb12f4b4-3394-4423-8b89-22cb9968efa2" height="72" weight="170" reach="" stance="Orthodox" first_name="Omari" nick_name="" last_name="Akhmedov">
+              <record wins="14" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="1a5062e3-8cce-4a0d-a0b7-1e6151f591bc" height="73" weight="185" reach="" stance="" first_name="Mats" nick_name="" last_name="Nilsson">
+              <record wins="11" losses="4" draws="1" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="388b15ac-f2ac-4358-93b6-ce5b0c6667fd" first_name="Yves" last_name="Lavigne"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="eb12f4b4-3394-4423-8b89-22cb9968efa2" draw="false">
+            <scores>
+              <judge id="1739d6fb-587b-4c90-bc73-1603e6658ce5" winner_score="29" loser_score="28" first_name="Sal" last_name="D'amato"/>
+              <judge id="1bc9058c-5838-45a3-88fc-a4b45b733a1f" winner_score="29" loser_score="28" first_name="Adalaide" last_name="Byrd"/>
+              <judge id="aa26d3cc-c136-4a6c-99b5-d984de760d13" winner_score="29" loser_score="28" first_name="Chris" last_name="Lee"/>
+            </scores>
+          </result>
+          <!-- 5109 -->
+        </fight>
+        <fight id="d7e4759e-888e-4d7f-bfa7-3c82f2b35946" accolade="" scheduled_rounds="3">
+          <weight_class id="WBW" weight="126-135" description="Women's Bantamweight"/>
+          <fighters>
+            <fighter id="e965863f-1490-44b6-a86b-32d265567179" height="66" weight="135" reach="" stance="" first_name="Marion" nick_name="The Bruiser" last_name="Reneau">
+              <record wins="7" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="ecfbadf8-924a-4d2a-9822-c55cb3d7f52d" height="69" weight="135" reach="" stance="Orthodox" first_name="Alexis" nick_name="Sneaky Zebra" last_name="Dufresne">
+              <record wins="5" losses="4" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="955a3c40-572a-4b52-a680-82097446d25b" first_name="Chris" last_name="Tognoni"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="e965863f-1490-44b6-a86b-32d265567179" draw="false"/>
+          <!-- 5178 -->
+        </fight>
+      </fights>
+      <!-- 691 -->
+    </event>
+  </events>
+</summary>

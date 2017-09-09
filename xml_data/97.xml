@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<summary generated="2017-09-06T21:42:45Z" xmlns="http://feed.elasticstats.com/schema/mma/v1/events-summary.xsd">
+  <events>
+    <event id="09b71e61-7c85-4f64-8e49-581304f3d463" name="UFC Fight Night: Hunt vs Mir" scheduled="2016-03-19T23:00:00Z">
+      <venue country_code="AUS" country="Australia" state="Queensland" city="Brisbane" name="Brisbane Entertainment Centre"/>
+      <league id="141c0a36-dbcb-4d3f-9436-527cd271d38d" alias="MMA-UFC" name="Ultimate Fighting Championship"/>
+      <fights>
+        <fight id="652f2dca-4969-4eae-aa42-c342ad1e9764" accolade="" scheduled_rounds="5">
+          <weight_class id="HW" weight="206-265" description="Heavyweight"/>
+          <fighters>
+            <fighter id="9ddfb4b9-c7df-41cd-94c9-b80fc4d5e482" height="70" weight="265" reach="74" stance="Orthodox" first_name="Mark" nick_name="Super Samoan" last_name="Hunt">
+              <record wins="12" losses="10" draws="1" no_contests="0"/>
+            </fighter>
+            <fighter id="39685dc7-96a9-4a5e-9941-2f2068775624" height="75" weight="264" reach="79" stance="Southpaw" first_name="Frank" nick_name="" last_name="Mir">
+              <record wins="18" losses="11" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="698d630c-84ec-43cb-a36e-315e2577fbaf" first_name="Marc" last_name="Goddard"/>
+          <result round="1" time="03:01" method="KO/TKO" submission="" endstrike="Punch" endtarget="Head" endposition="At Distance" winner="9ddfb4b9-c7df-41cd-94c9-b80fc4d5e482" draw="false"/>
+          <!-- 5940 -->
+        </fight>
+        <fight id="20f06a35-900c-458a-a0f3-e3b48d04d08a" accolade="" scheduled_rounds="3">
+          <weight_class id="WW" weight="156-170" description="Welterweight"/>
+          <fighters>
+            <fighter id="af664f3b-69bb-489b-a32b-6505f9d82d08" height="69" weight="170" reach="71" stance="Southpaw" first_name="Hector" nick_name="Lightning" last_name="Lombard">
+              <record wins="34" losses="5" draws="1" no_contests="2"/>
+            </fighter>
+            <fighter id="5dc5cac0-2747-49ad-a463-a3dfe2c75eb4" height="75" weight="170" reach="" stance="Orthodox" first_name="Neil" nick_name="" last_name="Magny">
+              <record wins="18" losses="5" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="1eec623a-6fe8-40aa-96f9-fcf59f6ad76c" first_name="Steve" last_name="Perceval"/>
+          <result round="3" time="00:46" method="KO/TKO" submission="" endstrike="Punches" endtarget="Head" endposition="From Mount" winner="5dc5cac0-2747-49ad-a463-a3dfe2c75eb4" draw="false"/>
+          <!-- 5962 -->
+        </fight>
+        <fight id="029af68d-32be-4894-a84b-a1a29b8d2282" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="8e737df8-8304-4111-a0d9-5c277e9aae09" height="73" weight="155" reach="" stance="" first_name="Johnny" nick_name="" last_name="Case">
+              <record wins="22" losses="5" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="64196f4a-8a9c-45b5-8405-b780f7164428" height="71" weight="155" reach="" stance="" first_name="Jake" nick_name="The Celtic Kid" last_name="Matthews">
+              <record wins="11" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="6a66403c-3faf-4912-aaaa-cbcee1c85350" first_name="John" last_name="Sharp"/>
+          <result round="3" time="04:45" method="Submission" submission="Rear Naked Choke" endstrike="" endtarget="" endposition="From Back Control" winner="64196f4a-8a9c-45b5-8405-b780f7164428" draw="false"/>
+          <!-- 5971 -->
+        </fight>
+        <fight id="39a140a5-16b8-4b71-81c3-82dabf0bdb9e" accolade="" scheduled_rounds="3">
+          <weight_class id="MW" weight="171-185" description="Middleweight"/>
+          <fighters>
+            <fighter id="de8ac6e4-e502-4ec5-bd54-993489656145" height="74" weight="218" reach="" stance="Orthodox" first_name="Antonio" nick_name="Cara de Sapato" last_name="Carlos Jr.">
+              <record wins="6" losses="2" draws="0" no_contests="1"/>
+            </fighter>
+            <fighter id="230233a5-aea9-48ce-9a9d-e82e31d34449" height="73" weight="185" reach="" stance="" first_name="Dan" nick_name="" last_name="Kelly">
+              <record wins="11" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="8d686777-c3ac-43a0-aaee-8cdee679ef99" first_name="Greg" last_name="Kleynjans"/>
+          <result round="3" time="01:36" method="KO/TKO" submission="" endstrike="Punches" endtarget="Head" endposition="From Half Guard" winner="230233a5-aea9-48ce-9a9d-e82e31d34449" draw="false"/>
+          <!-- 5966 -->
+        </fight>
+        <fight id="a38cec71-75c3-4740-9fa4-53d4f3a3f03a" accolade="" scheduled_rounds="3">
+          <weight_class id="LHW" weight="186-205" description="Light Heavyweight"/>
+          <fighters>
+            <fighter id="3dff8eb5-3826-4d05-b08e-8ba35fb44b09" height="71" weight="205" reach="" stance="" first_name="Steve" nick_name="The Boss" last_name="Bosse">
+              <record wins="11" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="78720ce5-80ee-4d0b-90fa-f093bda20947" height="74" weight="205" reach="75" stance="Orthodox" first_name="James" nick_name="" last_name="Te-Huna">
+              <record wins="18" losses="9" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="698d630c-84ec-43cb-a36e-315e2577fbaf" first_name="Marc" last_name="Goddard"/>
+          <result round="1" time="00:52" method="KO/TKO" submission="" endstrike="Punch" endtarget="Head" endposition="In Clinch" winner="3dff8eb5-3826-4d05-b08e-8ba35fb44b09" draw="false"/>
+          <!-- 5964 -->
+        </fight>
+        <fight id="b5070ec7-5781-4ba0-bf84-ef9810d91553" accolade="" scheduled_rounds="3">
+          <weight_class id="WW" weight="156-170" description="Welterweight"/>
+          <fighters>
+            <fighter id="ede4a005-07e5-4c1f-b821-2e831f0ce97d" height="72" weight="170" reach="" stance="" first_name="Alan" nick_name="Brahma" last_name="Jouban">
+              <record wins="13" losses="4" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="859d15b9-026b-4f51-93e1-75988c1c63bd" height="69" weight="170" reach="" stance="" first_name="Brendan" nick_name="The Badger" last_name="O'Reilly">
+              <record wins="6" losses="2" draws="0" no_contests="1"/>
+            </fighter>
+          </fighters>
+          <referee id="6a66403c-3faf-4912-aaaa-cbcee1c85350" first_name="John" last_name="Sharp"/>
+          <result round="1" time="02:15" method="KO/TKO" submission="" endstrike="Elbow" endtarget="Head" endposition="In Clinch" winner="ede4a005-07e5-4c1f-b821-2e831f0ce97d" draw="false"/>
+          <!-- 5965 -->
+        </fight>
+        <fight id="293ebd45-e253-4552-b6ac-2fa8b51528db" accolade="" scheduled_rounds="3">
+          <weight_class id="FTW" weight="136-145" description="Featherweight"/>
+          <fighters>
+            <fighter id="273e2e86-a155-44a1-9bbf-25362a2114ce" height="72" weight="145" reach="" stance="" first_name="Daniel" nick_name="The Hangman" last_name="Hooker">
+              <record wins="14" losses="6" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="faf43f20-cb36-4cbc-909a-805817e97bbc" height="68" weight="145" reach="" stance="" first_name="Mark" nick_name="" last_name="Eddiva">
+              <record wins="6" losses="3" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="8d686777-c3ac-43a0-aaee-8cdee679ef99" first_name="Greg" last_name="Kleynjans"/>
+          <result round="1" time="01:24" method="Submission" submission="Guillotine Choke" endstrike="" endtarget="" endposition="From Mount" winner="273e2e86-a155-44a1-9bbf-25362a2114ce" draw="false"/>
+          <!-- 6019 -->
+        </fight>
+        <fight id="8f5a77da-4188-4f52-b58d-de23149afa81" accolade="" scheduled_rounds="3">
+          <weight_class id="WBW" weight="126-135" description="Women's Bantamweight"/>
+          <fighters>
+            <fighter id="0534a62b-0849-48c4-9625-457b87bd07a5" height="69" weight="135" reach="" stance="" first_name="Leslie" nick_name="The Peacemaker" last_name="Smith">
+              <record wins="8" losses="7" draws="1" no_contests="0"/>
+            </fighter>
+            <fighter id="a9aaa43a-4082-49c1-8ab1-f57f987bebbd" height="61" weight="135" reach="" stance="" first_name="Rin" nick_name="" last_name="Nakai">
+              <record wins="16" losses="2" draws="1" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="6a66403c-3faf-4912-aaaa-cbcee1c85350" first_name="John" last_name="Sharp"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="0534a62b-0849-48c4-9625-457b87bd07a5" draw="false">
+            <scores>
+              <judge id="56bd66df-5345-4987-bf27-bcc4d9285b7b" winner_score="29" loser_score="28" first_name="Peter" last_name="Hickmont"/>
+              <judge id="af160ce8-c7c9-4b76-bc4d-282175fb7267" winner_score="30" loser_score="27" first_name="Albert" last_name="Shen"/>
+              <judge id="cb0744e6-03ec-43fb-ba54-fc9acfa8bdc4" winner_score="29" loser_score="28" first_name="Evan" last_name="Field"/>
+            </scores>
+          </result>
+          <!-- 5999 -->
+        </fight>
+        <fight id="bfae9d51-dae7-448e-a5e6-91b559e70b3a" accolade="" scheduled_rounds="3">
+          <weight_class id="WW" weight="156-170" description="Welterweight"/>
+          <fighters>
+            <fighter id="a1da390d-be2c-44b0-a924-1d16e1a8433b" height="72" weight="170" reach="" stance="" first_name="Richard" nick_name="Filthy Rich" last_name="Walsh">
+              <record wins="9" losses="5" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="d2badd13-68ba-493d-9207-18e411e99f04" height="71" weight="170" reach="" stance="Orthodox" first_name="Viscardi" nick_name="" last_name="Andrade">
+              <record wins="19" losses="7" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="698d630c-84ec-43cb-a36e-315e2577fbaf" first_name="Marc" last_name="Goddard"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="d2badd13-68ba-493d-9207-18e411e99f04" draw="false">
+            <scores>
+              <judge id="6e1364f4-b22e-4c59-b4c2-b4c2d6425229" winner_score="29" loser_score="28" first_name="Paul" last_name="Sutherland"/>
+              <judge id="877a600a-d26d-410e-998a-41a3dcbe345c" winner_score="29" loser_score="28" first_name="Peter" last_name="Hickmont"/>
+              <judge id="887dd286-b4d6-4526-8b83-8a9aa0de7848" winner_score="29" loser_score="28" first_name="Charlie" last_name="Keech"/>
+            </scores>
+          </result>
+          <!-- 5972 -->
+        </fight>
+        <fight id="d06135fe-4be5-49bd-be89-1af5f7347c05" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="d49524cd-ab48-49e3-9235-15508b288180" height="70" weight="170" reach="" stance="" first_name="Chad" nick_name="" last_name="Laprise">
+              <record wins="11" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="ef05e6c9-8aee-4a85-9007-46467f7ee7b4" height="68" weight="155" reach="69" stance="Orthodox" first_name="Ross" nick_name="The Real Deal" last_name="Pearson">
+              <record wins="21" losses="10" draws="0" no_contests="1"/>
+            </fighter>
+          </fighters>
+          <referee id="1eec623a-6fe8-40aa-96f9-fcf59f6ad76c" first_name="Steve" last_name="Perceval"/>
+          <result round="3" time="05:00" method="Decision - Split" submission="" endstrike="" endtarget="" endposition="" winner="ef05e6c9-8aee-4a85-9007-46467f7ee7b4" draw="false">
+            <scores>
+              <judge id="19e8b742-ad65-468c-bcde-9a54ec60e9d2" winner_score="28" loser_score="30" first_name="Albert" last_name="Shen"/>
+              <judge id="7090d7fd-c900-41b7-b906-0dfcfd01a69b" winner_score="30" loser_score="27" first_name="Kon" last_name="Papaioannou"/>
+              <judge id="99ad4689-6fb9-4b01-9926-96c136f0a782" winner_score="29" loser_score="28" first_name="Barry" last_name="Foley"/>
+            </scores>
+          </result>
+          <!-- 5992 -->
+        </fight>
+        <fight id="a8c2c22a-f43c-4d20-8733-a06fd52eeb8f" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="703b923d-2f69-45f6-b5b6-e4db533e79f3" height="71" weight="155" reach="" stance="Southpaw" first_name="Alan" nick_name="Nuguette" last_name="Patrick">
+              <record wins="13" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="922ef683-cdb6-479e-89b9-2efff00dff24" height="70" weight="155" reach="70" stance="" first_name="Damien" nick_name="Beatdown" last_name="Brown">
+              <record wins="15" losses="9" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="8d686777-c3ac-43a0-aaee-8cdee679ef99" first_name="Greg" last_name="Kleynjans"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="703b923d-2f69-45f6-b5b6-e4db533e79f3" draw="false">
+            <scores>
+              <judge id="00940b56-19d3-4aff-8ba4-1c205a568735" winner_score="30" loser_score="27" first_name="Evan" last_name="Field"/>
+              <judge id="8ba89ea0-2fc3-4c4e-8c4e-c488943014f3" winner_score="30" loser_score="27" first_name="Charlie" last_name="Keech"/>
+              <judge id="fe220e0e-a93f-4823-a061-c072ef85268d" winner_score="30" loser_score="26" first_name="Anthony" last_name="Dimitriou"/>
+            </scores>
+          </result>
+          <!-- 6046 -->
+        </fight>
+      </fights>
+      <!-- 766 -->
+    </event>
+  </events>
+</summary>

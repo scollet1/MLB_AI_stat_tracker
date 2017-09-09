@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<summary generated="2017-09-06T21:42:57Z" xmlns="http://feed.elasticstats.com/schema/mma/v1/events-summary.xsd">
+  <events>
+    <event id="9b0d99cb-420a-4f24-b486-7039ddefe17e" name="DWTNCS 6" scheduled="2017-08-16T00:00:00Z">
+      <venue country_code="USA" country="United States" state="Nevada" city="Las Vegas" name="The Ultimate Fighter Gym"/>
+      <league id="141c0a36-dbcb-4d3f-9436-527cd271d38d" alias="MMA-UFC" name="Ultimate Fighting Championship"/>
+      <fights>
+        <fight id="283c205c-3978-400a-9c93-ae863bdd5806" accolade="" scheduled_rounds="3">
+          <weight_class id="MW" weight="171-185" description="Middleweight"/>
+          <fighters>
+            <fighter id="d1df616e-9209-4c12-9092-122f9fdb7da2" height="73" weight="185" reach="" stance="Switch" first_name="Gabriel" nick_name="Zangief" last_name="Checco">
+              <record wins="10" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="f2fc2a0a-ede5-482c-921f-6d0a00d2b13d" height="70" weight="185" reach="73" stance="Orthodox" first_name="Charles" nick_name="Kid Dynamite" last_name="Byrd">
+              <record wins="7" losses="4" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 6815 -->
+        </fight>
+        <fight id="6b6b8749-158f-48f2-a063-345004327018" accolade="" scheduled_rounds="3">
+          <weight_class id="FTW" weight="136-145" description="Featherweight"/>
+          <fighters>
+            <fighter id="07840c19-07f1-4efc-ad59-04092e905714" height="70" weight="145" reach="" stance="" first_name="Adrian" nick_name="" last_name="Diaz">
+              <record wins="11" losses="4" draws="1" no_contests="0"/>
+            </fighter>
+            <fighter id="41598bf3-2e4f-40b3-82f9-b69b7771a7dc" height="70" weight="145" reach="" stance="" first_name="Grant" nick_name="The Prophet" last_name="Dawson">
+              <record wins="11" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 6816 -->
+        </fight>
+        <fight id="13ad7da9-4ad6-461d-bbe7-dd8f9a38c502" accolade="" scheduled_rounds="3">
+          <weight_class id="LHW" weight="186-205" description="Light Heavyweight"/>
+          <fighters>
+            <fighter id="1b662f63-b295-46f5-b2d4-b738566b03db" height="73" weight="205" reach="" stance="" first_name="Cameron" nick_name="Captain Crunch" last_name="Olson">
+              <record wins="6" losses="3" draws="0" no_contests="1"/>
+            </fighter>
+            <fighter id="001734de-7313-43e0-9a41-e98b0e3d31c9" height="75" weight="205" reach="" stance="" first_name="Karl" nick_name="" last_name="Reed">
+              <record wins="1" losses="0" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 6817 -->
+        </fight>
+        <fight id="656d01ae-2695-4997-b89b-a82c6a16e919" accolade="" scheduled_rounds="3">
+          <weight_class id="FLW" weight="116-125" description="Flyweight"/>
+          <fighters>
+            <fighter id="c3b61cc2-ef91-4c3d-9158-c7cb4b44ed2a" height="69" weight="125" reach="" stance="" first_name="Martin" nick_name="The Spartan" last_name="Day">
+              <record wins="5" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="117fa10c-02ef-451e-a825-64045e3510ec" height="68" weight="125" reach="" stance="" first_name="Jamie" nick_name="" last_name="Alvarez">
+              <record wins="6" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 6818 -->
+        </fight>
+      </fights>
+      <!-- 840 -->
+    </event>
+  </events>
+</summary>

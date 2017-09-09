@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<summary generated="2017-09-06T21:42:58Z" xmlns="http://feed.elasticstats.com/schema/mma/v1/events-summary.xsd">
+  <events>
+    <event id="3bc07002-949f-46e7-a52c-f8e4b628dbd4" name="UFC Fight Night: Winnipeg" scheduled="2017-12-16T23:30:00Z">
+      <venue country_code="CAN" country="Canada" state="Manitoba" city="Winnipeg" name="Bell MTS Place"/>
+      <league id="141c0a36-dbcb-4d3f-9436-527cd271d38d" alias="MMA-UFC" name="Ultimate Fighting Championship"/>
+      <fights>
+        <fight id="088dfc4d-99fb-4959-9287-902fc1c41096" accolade="" scheduled_rounds="3">
+          <weight_class id="LHW" weight="186-205" description="Light Heavyweight"/>
+          <fighters>
+            <fighter id="6b686541-a1b2-4283-adce-e81ac2dd94c8" height="75" weight="265" reach="" stance="" first_name="Jared" nick_name="Killa" last_name="Cannonier">
+              <record wins="10" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="3ce60b3d-d58f-4085-b39e-398a62fda40a" height="74" weight="205" reach="75" stance="Southpaw" first_name="Antonio Rogerio" nick_name="Minotouro" last_name="Nogueira">
+              <record wins="22" losses="8" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 6864 -->
+        </fight>
+        <fight id="bd5af1aa-2039-41a2-99dd-1dfabb7a5dd5" accolade="" scheduled_rounds="3">
+          <weight_class id="MW" weight="171-185" description="Middleweight"/>
+          <fighters>
+            <fighter id="2f2886fc-3284-4747-8086-5c0d4b683008" height="71" weight="185" reach="" stance="" first_name="Oluwale" nick_name="Holy War Angel" last_name="Bamgbose">
+              <record wins="6" losses="3" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="05433f79-a520-447d-a6d9-e4d25c8e9fb4" height="72" weight="185" reach="" stance="" first_name="Alessio" nick_name="" last_name="Di Chirico">
+              <record wins="10" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <!-- 6865 -->
+        </fight>
+      </fights>
+      <!-- 848 -->
+    </event>
+  </events>
+</summary>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<summary generated="2017-09-06T21:42:32Z" xmlns="http://feed.elasticstats.com/schema/mma/v1/events-summary.xsd">
+  <events>
+    <event id="fc3c4f0d-af05-419a-b5ac-a4f733e46d5c" name="UFC Fight Night 50: Souza vs. Mousasi" scheduled="2014-09-05T23:00:00Z">
+      <venue country_code="USA" country="United States" state="Connecticut" city="Ledyard" name="Foxwoods Resort Casino"/>
+      <league id="141c0a36-dbcb-4d3f-9436-527cd271d38d" alias="MMA-UFC" name="Ultimate Fighting Championship"/>
+      <fights>
+        <fight id="89764c05-dfc8-4461-ae63-4bec1eb71b05" accolade="" scheduled_rounds="5">
+          <weight_class id="MW" weight="171-185" description="Middleweight"/>
+          <fighters>
+            <fighter id="2c1a4dd0-2ab6-46ea-9345-bc66ef5d1a11" height="73" weight="185" reach="76" stance="Orthodox" first_name="Gegard" nick_name="" last_name="Mousasi">
+              <record wins="34" losses="4" draws="2" no_contests="0"/>
+            </fighter>
+            <fighter id="68fc39b6-514b-4543-a2a2-126aaf895590" height="73" weight="185" reach="74" stance="Orthodox" first_name="Ronaldo" nick_name="Jacare" last_name="Souza">
+              <record wins="20" losses="3" draws="0" no_contests="1"/>
+            </fighter>
+          </fighters>
+          <!-- 4912 -->
+        </fight>
+        <fight id="65be909f-f2f6-4361-b317-6ada02ded8aa" accolade="" scheduled_rounds="3">
+          <weight_class id="HW" weight="206-265" description="Heavyweight"/>
+          <fighters>
+            <fighter id="35198136-4a3a-4efe-a3e0-6066ea2e80b9" height="76" weight="265" reach="80" stance="Orthodox" first_name="Ben" nick_name="" last_name="Rothwell">
+              <record wins="33" losses="9" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="0fdb008a-0402-444a-8879-0e57922efe83" height="76" weight="265" reach="" stance="Orthodox" first_name="Alistair" nick_name="The Reem" last_name="Overeem">
+              <record wins="37" losses="13" draws="0" no_contests="1"/>
+            </fighter>
+          </fighters>
+          <!-- 4936 -->
+        </fight>
+        <fight id="20b54c42-106b-4548-97d0-01f267f7aff3" accolade="" scheduled_rounds="3">
+          <weight_class id="HW" weight="206-265" description="Heavyweight"/>
+          <fighters>
+            <fighter id="2c120cab-ac1b-4559-b9ab-f46d74598b05" height="75" weight="265" reach="82" stance="Orthodox" first_name="Matt" nick_name="" last_name="Mitrione">
+              <record wins="8" losses="3" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="31d53496-8534-41c7-bc03-fa8170eb4d97" height="75" weight="246" reach="" stance="" first_name="Derrick" nick_name="The Black Beast" last_name="Lewis">
+              <record wins="11" losses="3" draws="0" no_contests="1"/>
+            </fighter>
+          </fighters>
+          <referee id="8ee0a8bd-c0f0-46cd-81a2-18e006c13724" first_name="Mario" last_name="Yamasaki"/>
+          <result round="1" time="00:41" method="KO/TKO" submission="" endstrike="Punches" endtarget="Head" endposition="At Distance" winner="2c120cab-ac1b-4559-b9ab-f46d74598b05" draw="false"/>
+          <!-- 4937 -->
+        </fight>
+        <fight id="e10bf11f-657e-4030-ad75-91693dd462d0" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="5011574f-959d-4eb6-a23f-1d7217020d75" height="73" weight="155" reach="" stance="Southpaw" first_name="Michael" nick_name="Maverick" last_name="Chiesa">
+              <record wins="11" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="50fe3dc5-f46a-47fa-b1b4-77b253d5fceb" height="70" weight="155" reach="70" stance="Orthodox" first_name="Joe" nick_name="J-Lau" last_name="Lauzon">
+              <record wins="24" losses="9" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="c5f6fb3c-f884-4664-891d-bfbafc57febe" first_name="Herb" last_name="Dean"/>
+          <result round="2" time="02:14" method="TKO - Doctor's Stoppage" submission="" endstrike="" endtarget="" endposition="" winner="50fe3dc5-f46a-47fa-b1b4-77b253d5fceb" draw="false"/>
+          <!-- 4904 -->
+        </fight>
+        <fight id="43a25a9b-e0b8-4fe3-9c81-7e09ed248aee" accolade="" scheduled_rounds="3">
+          <weight_class id="FLW" weight="116-125" description="Flyweight"/>
+          <fighters>
+            <fighter id="fd9b37d7-0faa-4212-addb-ef88a0a8103a" height="65" weight="125" reach="" stance="" first_name="Justin" nick_name="Tank" last_name="Scoggins">
+              <record wins="9" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="2c41cb8b-3be4-42ce-91e9-6749f2c1155e" height="66" weight="125" reach="" stance="Orthodox" first_name="John" nick_name="" last_name="Moraga">
+              <record wins="15" losses="3" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="8ee0a8bd-c0f0-46cd-81a2-18e006c13724" first_name="Mario" last_name="Yamasaki"/>
+          <result round="2" time="00:47" method="Submission" submission="Guillotine Choke" endstrike="" endtarget="" endposition="From Bottom Guard" winner="2c41cb8b-3be4-42ce-91e9-6749f2c1155e" draw="false"/>
+          <!-- 4986 -->
+        </fight>
+        <fight id="1ae11b0e-08ce-4572-a003-93714c0edfc1" accolade="" scheduled_rounds="3">
+          <weight_class id="LW" weight="146-155" description="Lightweight"/>
+          <fighters>
+            <fighter id="a22a279c-6da2-4383-b583-3a26b08f0668" height="67" weight="155" reach="71" stance="Orthodox" first_name="Rodrigo" nick_name="" last_name="Damm">
+              <record wins="12" losses="8" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="396cad2a-1890-43f9-ae00-cbe2cc7739ed" height="69" weight="155" reach="" stance="Orthodox" first_name="Al" nick_name="Raging" last_name="Iaquinta">
+              <record wins="9" losses="3" draws="1" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="c5f6fb3c-f884-4664-891d-bfbafc57febe" first_name="Herb" last_name="Dean"/>
+          <result round="3" time="02:41" method="KO/TKO" submission="" endstrike="Elbows" endtarget="Head" endposition="At Distance" winner="396cad2a-1890-43f9-ae00-cbe2cc7739ed" draw="false"/>
+          <!-- 4945 -->
+        </fight>
+        <fight id="1c2315dd-d8e0-4de0-a699-5bf7103ec1e8" accolade="" scheduled_rounds="3">
+          <weight_class id="MW" weight="171-185" description="Middleweight"/>
+          <fighters>
+            <fighter id="93a851ee-a3d9-4ef3-8903-d87a83567d4f" height="72" weight="185" reach="77" stance="Orthodox" first_name="Rafael" nick_name="Sapo" last_name="Natal">
+              <record wins="18" losses="6" draws="1" no_contests="0"/>
+            </fighter>
+            <fighter id="09ab7055-dd37-47fc-be54-a7b1687066a0" height="75" weight="185" reach="76" stance="Orthodox" first_name="Chris" nick_name="" last_name="Camozzi">
+              <record wins="19" losses="9" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="45f71c88-f8dc-42c8-89d0-87705f9a0502" first_name="Keith" last_name="Peterson"/>
+          <result round="3" time="05:00" method="Decision - Split" submission="" endstrike="" endtarget="" endposition="" winner="93a851ee-a3d9-4ef3-8903-d87a83567d4f" draw="false">
+            <scores>
+            </scores>
+          </result>
+          <!-- 4944 -->
+        </fight>
+        <fight id="8b743cb7-67af-47dc-af96-dd35bd777802" accolade="" scheduled_rounds="3">
+          <weight_class id="BW" weight="126-135" description="Bantamweight"/>
+          <fighters>
+            <fighter id="929a7227-fd9a-49db-b044-bca111630f6f" height="67" weight="135" reach="" stance="Orthodox" first_name="Tateki" nick_name="Tech" last_name="Matsuda">
+              <record wins="10" losses="6" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="d47702f5-c78b-4163-a90a-b3cef59d090f" height="67" weight="135" reach="" stance="Orthodox" first_name="Chris" nick_name="The Real Deal" last_name="Beal">
+              <record wins="10" losses="0" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="8ee0a8bd-c0f0-46cd-81a2-18e006c13724" first_name="Mario" last_name="Yamasaki"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="d47702f5-c78b-4163-a90a-b3cef59d090f" draw="false">
+            <scores>
+            </scores>
+          </result>
+          <!-- 4943 -->
+        </fight>
+        <fight id="4fe15776-324b-415e-a2e2-3d8efcac289e" accolade="" scheduled_rounds="3">
+          <weight_class id="FTW" weight="136-145" description="Featherweight"/>
+          <fighters>
+            <fighter id="4381525c-1fc9-4455-ba7c-f211d4ad28ad" height="71" weight="145" reach="" stance="" first_name="Chas" nick_name="" last_name="Skelly">
+              <record wins="13" losses="1" draws="0" no_contests="0"/>
+            </fighter>
+            <fighter id="df21f14e-7e52-4811-a3d5-c0bc8ef03bde" height="69" weight="145" reach="" stance="" first_name="Sean" nick_name="" last_name="Soriano">
+              <record wins="8" losses="2" draws="0" no_contests="0"/>
+            </fighter>
+          </fighters>
+          <referee id="c5f6fb3c-f884-4664-891d-bfbafc57febe" first_name="Herb" last_name="Dean"/>
+          <result round="3" time="05:00" method="Decision - Unanimous" submission="" endstrike="" endtarget="" endposition="" winner="4381525c-1fc9-4455-ba7c-f211d4ad28ad" draw="false">
+            <scores>
+            </scores>
+          </result>
+          <!-- 4918 -->
+        </fight>
+      </fights>
+      <!-- 683 -->
+    </event>
+  </events>
+</summary>
