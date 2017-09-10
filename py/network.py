@@ -13,7 +13,7 @@
 import numpy as np
 import sys
 
-EPISODES = 750
+EPOCHS = 750
 
 
 #def update_weights(agent, data):
@@ -27,15 +27,16 @@ EPISODES = 750
 
 def train(agent, fight_data):
 	#print "hello???"
-	for e in range(1):
+	for e in range(EPOCHS):
 		for each, fight in fight_data.items():
 			print "fight id : ", each
 			X = []
+			y = []
 			j = 0
 			for this, fighter in fight.items():
-				if this == 'results':
-					break
 				print "fighter id : ", this
+				if this == 'results':
+					continue
 				X.append(fighter.weight)
 				X.append(fighter.height)
 				X.append(fighter.reach)
@@ -49,9 +50,11 @@ def train(agent, fight_data):
 			#print X
 			y = fight['results'].winner
 			y = np.array(y)
-#			print y
+			print y
 			y = np.reshape(y, (1, 2))
 			#print y
 			agent.train(X, y)
 			score = agent.model.evaluate(X, y, batch_size=128)
 			print "accuracy --- ", score[1], "time --- ", e
+			del X
+			del y

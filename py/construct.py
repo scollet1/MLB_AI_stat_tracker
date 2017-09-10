@@ -88,10 +88,10 @@ def fights(data_file):
 									j += 1
 									fight_list[this.ID][brawler.ID] = deepcopy(brawler)
 									#print "wins : ", fight_list[this.ID][brawler.ID].wins
-									if this.ID == "94c2f012-03a8-423a-a47e-a4f0c5f9a991" or this.ID == "65be909f-f2f6-4361-b317-6ada02ded8aa":
-										print "mark ---- ", this.ID, brawler.ID
-									else:
-										print this.ID, brawler.ID
+#									if this.ID == "94c2f012-03a8-423a-a47e-a4f0c5f9a991" or this.ID == "65be909f-f2f6-4361-b317-6ada02ded8aa":
+#										print "mark ---- ", this.ID, brawler.ID
+#									else:
+#										print this.ID, brawler.ID
 								for result in fights:
 									if result.get('winner') == this.fID[0]:
 										this.winner[0] = 1

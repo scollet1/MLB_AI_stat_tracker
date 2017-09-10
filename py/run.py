@@ -68,7 +68,7 @@ def write_to_file(fight_data):
 
 def run():
     agent = objects.Agent(14, 2)
-    fight_data = {}
+    #fight_data = {}
     #data['fighters'] = construct.fighters('data.xml')
     fight_data = construct.fights('schedule.xml')
     #for each, fight in fight_data.items():
