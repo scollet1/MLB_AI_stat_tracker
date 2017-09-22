@@ -1,2 +1,2 @@
-# MLB_AI_stat_tracker
+# MMA_Fight_Predictor
 rolls off the tongue, doesn't it?
