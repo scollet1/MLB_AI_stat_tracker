@@ -37,7 +37,7 @@ def run(query):
         get.MMA()
         parse('data.xml')
     elif query == "parse":
-        parse('data.xml') # NOTE : THIS DOES NOT REFLECT THE END IMPLEMENTATION !!!
+        parse('data.xml') # NOTE : THIS DOES NOT REFLECT THE END IMPLEMENTATION !!! ayy yh it do, lmao
     else:
         sys.exit(0)
     #parse(data)
@@ -53,28 +53,40 @@ def run(query):
 def write_to_file(fight_data):
     with open(FILE_NAME, 'wb') as csvfile:
         writer = csv.writer(csvfile, delimiter = ',')
-        for each, fight in fight_data:
-            for each, fighter in fight_data:
-                writer.write(fighter.weight)
-                writer.write(fighter.weight)
-                writer.write(fighter.weight)
-                writer.write(fighter.weight)
-                writer.write(fighter.weight)
-                writer.write(fighter.weight)
-                writer.write(fighter.weight)
-                writer.write(fighter.weight)
-            writer.write()
-            writer.write('\n')
+        for each, fight in fight_data.items():
+            windex = 0
+            array = []
+            for each, fighter in fight.items():
+                if each == 'results':
+                    continue
+                array.append(fighter.weight)
+                array.append(fighter.height)
+                array.append(fighter.reach)
+                array.append(fighter.wins)
+                array.append(fighter.losses)
+                array.append(fighter.draws)
+                array.append(fighter.no_contest)
+            array.append(fight['results'].winner[0])
+            array.append(fight['results'].winner[1])
+            writer.writerow(array)
 
-def run():
-    agent = objects.Agent(14, 2)
+def run(arguments):
+    for arg in arguments:
+        if arg == 'train':
+            agent = objects.Agent(14, 2)
     #fight_data = {}
     #data['fighters'] = construct.fighters('data.xml')
-    fight_data = construct.fights('schedule.xml')
+            fight_data = construct.fights('schedule.xml')
     #for each, fight in fight_data.items():
     #    print each
 #   sys.exit(0)
-#   write_to_file(fight_data)
-    network.train(agent, fight_data)
+            write_to_file(fight_data)
+            network.train(agent)
+        elif arg == 'fight':
+            pass
 
-run()
+#       if sys.
+    print "Arguemnts Processed!"
+
+if __name__ == "__main__":
+    run(sys.argv)

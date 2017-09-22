@@ -43,6 +43,8 @@ class Agent():
 		self.target_model.set_weights(self.model.get_weights())
 	def train(self, feed, target):
 		self.model.fit(feed, target, epochs=1, verbose=0)
+	def predict(self, X):
+		self.model.predict(X)
 	def load(self, name):
 		self.model.load_weights(name)
 	def save(self, name):

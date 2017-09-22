@@ -10,7 +10,6 @@
 #                                                                              #
 # **************************************************************************** #
 
-
 import xml.etree.ElementTree as ET
 import objects
 import random

@@ -12,9 +12,10 @@
 
 import numpy as np
 import sys
+from sklearn.model_selection import train_test_split
 
-EPOCHS = 750
-
+EPOCHS = 1
+FILE_NAME = "../fight_data.csv"
 
 #def update_weights(agent, data):
 
@@ -26,35 +27,11 @@ EPOCHS = 750
 
 
 def train(agent, fight_data):
-	#print "hello???"
-	for e in range(EPOCHS):
-		for each, fight in fight_data.items():
-			print "fight id : ", each
-			X = []
-			y = []
-			j = 0
-			for this, fighter in fight.items():
-				print "fighter id : ", this
-				if this == 'results':
-					continue
-				X.append(fighter.weight)
-				X.append(fighter.height)
-				X.append(fighter.reach)
-				X.append(fighter.wins)
-				X.append(fighter.losses)
-				X.append(fighter.draws)
-				X.append(fighter.no_contest)
-			print "clues thar be - ", X
-			X = np.array(X)
-			X = X.reshape((1, 14))
-			#print X
-			y = fight['results'].winner
-			y = np.array(y)
-			print y
-			y = np.reshape(y, (1, 2))
-			#print y
-			agent.train(X, y)
-			score = agent.model.evaluate(X, y, batch_size=128)
-			print "accuracy --- ", score[1], "time --- ", e
-			del X
-			del y
+	seed = 9
+	np.random.seed(seed)
+	dataset = np.loadtxt(FILE_NAME, delimiter=',')
+	X = dataset[:,0:14]
+	Y = dataset[:,14:]
+	print X, Y
+	(X_train, X_test, Y_train, Y_test) = train_test_split(X, Y, test_size=0.33, random_state=seed)
+	model.fit(X_train, Y_train, validation_data=(X_test, Y_test), nb_epoch=200, batch_size=5, verbose=0)
