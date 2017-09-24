@@ -1,0 +1,16 @@
+#radioPick{
+    display:inline-block
+}
+#label{
+    vertical-align:top;
+}
+
+.radioPick {
+	display:inline-block
+}
+
+form.remit_change_form label.radiolabel
+{
+    display:inline-block; /* added this */
+    width: 50px;
+}
