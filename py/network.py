@@ -32,7 +32,12 @@ def train(agent):
 	dataset = np.loadtxt(FILE_NAME, delimiter=',')
 	X = dataset[:,0:14]
 	Y = dataset[:,14:]
-	print X, Y
+#	print X, Y
 	(X_train, X_test, Y_train, Y_test) = train_test_split(X, Y, test_size=0.33, random_state=seed)
+<<<<<<< HEAD
 	agent.model.fit(X_train, Y_train, validation_data=(X_test, Y_test), nb_epoch=200, batch_size=5, verbose=0)
 	print agent.model.predict(X_test, batch_size=32, verbose=0, steps=100)
+=======
+	agent.model.fit(X_train, Y_train, validation_data=(X_test, Y_test), epochs=200, batch_size=5, verbose=0)
+	
+>>>>>>> b741342111e5c31f6e8a3a918d243f4bf429916b
