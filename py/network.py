@@ -26,7 +26,7 @@ FILE_NAME = "../fight_data.csv"
 #def forward_propagate(agent, data):
 
 
-def train(agent, fight_data):
+def train(agent):
 	seed = 9
 	np.random.seed(seed)
 	dataset = np.loadtxt(FILE_NAME, delimiter=',')
@@ -34,4 +34,5 @@ def train(agent, fight_data):
 	Y = dataset[:,14:]
 	print X, Y
 	(X_train, X_test, Y_train, Y_test) = train_test_split(X, Y, test_size=0.33, random_state=seed)
-	model.fit(X_train, Y_train, validation_data=(X_test, Y_test), nb_epoch=200, batch_size=5, verbose=0)
+	agent.model.fit(X_train, Y_train, validation_data=(X_test, Y_test), nb_epoch=200, batch_size=5, verbose=0)
+	print agent.model.predict(X_test, batch_size=32, verbose=0, steps=100)
