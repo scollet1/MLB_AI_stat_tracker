@@ -24,69 +24,64 @@ from copy import deepcopy
 
 #class Agent():
 EPOCHS = 500
-FILE_NAME = "../fight_data.csv"
-
-'''
-def feed(data):
-    network = objects.Network()
-    for episode in range(EPOCHS):
-        pass
-
-def run(query):
-    if query == "MMA":
-        get.MMA()
-        parse('data.xml')
-    elif query == "parse":
-        parse('data.xml') # NOTE : THIS DOES NOT REFLECT THE END IMPLEMENTATION !!! ayy yh it do, lmao
-    else:
-        sys.exit(0)
-    #parse(data)
-    #feed(data)
-'''
-
+TRAIN_FILE_NAME = "../train_data.csv"
+FIGHT_FILE_NAME = "../predict_data.csv"
 #run(sys.argv[1])
 #get.MMA_EVENTS()
 #fighter_list = parse('data.xml')
 #feed(fighter_list)
 #def pull(data_file):
 
-def write_to_file(fight_data):
-    with open(FILE_NAME, 'wb') as csvfile:
+def write_file(fight_data, fname):
+    with open(fname, 'wb') as csvfile:
         writer = csv.writer(csvfile, delimiter = ',')
-        for each, fight in fight_data.items():
-            windex = 0
-            array = []
-            for each, fighter in fight.items():
-                if each == 'results':
-                    continue
-                array.append(fighter.weight)
-                array.append(fighter.height)
-                array.append(fighter.reach)
-                array.append(fighter.wins)
-                array.append(fighter.losses)
-                array.append(fighter.draws)
-                array.append(fighter.no_contest)
-            array.append(fight['results'].winner[0])
-            array.append(fight['results'].winner[1])
-            writer.writerow(array)
+	if fname == TRAIN_FILE_NAME:
+	        for each, fight in fight_data.items():
+			windex = 0
+			array = []
+			for each, fighter in fight.items():
+				if each == 'results':
+                	    		continue
+		                array.append(fighter.weight)
+        		        array.append(fighter.height)
+				array.append(fighter.reach)
+       	        	 	array.append(fighter.wins)
+      	 	         	array.append(fighter.losses)
+       	       		  	array.append(fighter.draws)
+               	 		array.append(fighter.no_contest)
+            		array.append(fight['results'].winner[0])
+	            	array.append(fight['results'].winner[1])
+			writer.writerow(array)
+	elif fname == FIGHT_FILE_NAME:
+		for each, fight in fight_data.items():
+			windex = 0
+			for each, fighter in fight.items():       
+	                        array = []
+				if each == 'results':
+                                        continue
+                                array.append(fighter.name)
+				array.append(fighter.weight)
+                                array.append(fighter.height)
+                                array.append(fighter.reach)
+                                array.append(fighter.wins)
+                                array.append(fighter.losses)
+                                array.append(fighter.draws)
+                                array.append(fighter.no_contest)
+                        	writer.writerow(array)
 
 def run(arguments):
-    for arg in arguments:
-        if arg == 'train':
-            agent = objects.Agent(14, 2)
-    #fight_data = {}
-    #data['fighters'] = construct.fighters('data.xml')
-            fight_data = construct.fights('schedule.xml')
-    #for each, fight in fight_data.items():
-    #    print each
-#   sys.exit(0)
-            write_to_file(fight_data)
-            network.train(agent)
-        elif arg == 'fight':
-            pass
-
-#       if sys.
-    print "Arguemnts Processed!"
+	for arg in arguments:
+		if arg == 'train':
+			agent = objects.Agent(14, 2)
+            		fight_data = construct.fights('../xml_data/schedule.xml')
+            		write_file(fight_data, TRAIN_FILE_NAME)
+	            	network.train(agent)
+		elif arg == 'predict':
+			agent = objects.Agent(14, 2)
+			fight_data = construct.fights('../xml_data/schedule.xml')
+			write_file(fight_data, FIGHT_FILE_NAME)
+			network.predict(agent, random.randint(0, 100), random.randint(0, 100))
+	print "Arguemnts Processed!"
 
 if __name__ == "__main__":
     run(sys.argv)

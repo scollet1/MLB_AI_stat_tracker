@@ -49,6 +49,9 @@ def fights(data_file):
 									brawler = objects.Fighter()
 #									fight_list[this.ID][brawler.ID] = {}
 									brawler.ID = fighters.get('id')
+#									if fighters.get('name') is None:
+#										break
+									brawler.name = fighters.get('first_name') + fighters.get('last_name')
 									if fighters.get('height') is not None and fighters.get('height'):
 #										print fighters.get('height')
 #										print float(fighters.get('height'))

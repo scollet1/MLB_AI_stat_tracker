@@ -73,31 +73,34 @@ class Fight():
         return self._draw
 
 class Fighter():
-    def __init__(self):
-        self.ID = None
-        self.height = None
-        self.weight = None
-        self.reach = None
-        self.stance = None
-        self.wins = None
-        self.losses = None
-        self.draws = None
-        self.no_contest = None
-    def ID(self):
-        return self._ID
-    def height(self):
-        return self._height
-    def weight(self):
-        return self._weight
-    def reach(self):
-        return self._reach
-    def stance(self):
-        return self._stance
-    def wins(self):
-        return self._wins
-    def losses(self):
-        return self._losses
-    def draws(self):
-        return self._draws
-    def no_contest(self):
-        return self._no_contest
+	def __init__(self):
+        	self.ID = None
+        	self.name = None
+		self.height = None
+        	self.weight = None
+        	self.reach = None
+        	self.stance = None
+		self.wins = None
+       		self.losses = None
+        	self.draws = None
+        	self.no_contest = None
+    	def ID(self):
+		return self._ID
+	def name(self):
+		return self._name
+    	def height(self):
+        	return self._height
+	def weight(self):
+        	return self._weight
+    	def reach(self):
+        	return self._reach
+    	def stance(self):
+        	return self._stance
+    	def wins(self):
+        	return self._wins
+    	def losses(self):
+        	return self._losses
+    	def draws(self):
+        	return self._draws
+    	def no_contest(self):
+        	return self._no_contest
