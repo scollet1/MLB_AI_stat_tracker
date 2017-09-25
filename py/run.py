@@ -53,9 +53,14 @@ def write_file(fight_data, fname):
 	            	array.append(fight['results'].winner[1])
 			writer.writerow(array)
 	elif fname == FIGHT_FILE_NAME:
+		i = 0
+#		sorted(fight_data)
 		for each, fight in fight_data.items():
 			windex = 0
-			for each, fighter in fight.items():       
+#			sorted(fight)
+			for each, fighter in fight.items():
+				i += 1
+#				print i
 	                        array = []
 				if each == 'results':
                                         continue

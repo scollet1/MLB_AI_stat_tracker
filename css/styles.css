@@ -1,16 +1,55 @@
 #radioPick{
     display:inline-block
 }
+form {
+  background-color: #ffffb3;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  border: 2px solid #000000;
+  min-width: 600px;
+  max-width: 690px;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 200px;
+}
+label {
+  margin-left: 100px;
+}
+input[type="radio"] {
+  margin-left: 100px;
+}
+input[type="radio"] + label {
+  margin-left: 10px;
+}
+input[type="radio"] + label:after {
+  content: '';
+  display: block;
+  /* Below code(border: 1px solid red;) is just for illustration, remove if necessary */
+  border: 1px solid red;
+}
 #label{
     vertical-align:top;
 }
 
 .radioPick {
-	display:inline-block
+	position: absolute;
+	right: 0px;
+	width: 300px;
+	border: 3px solid #73AD21;
+	padding: 10px;
+	float: left;
+	text-align:left;
 }
 
 form.remit_change_form label.radiolabel
 {
     display:inline-block; /* added this */
     width: 50px;
+}
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
 }

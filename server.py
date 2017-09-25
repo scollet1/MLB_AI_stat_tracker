@@ -14,10 +14,10 @@ def f1():
 	return render_template(
 		'FighterOne.html',**locals())
 
-@app.route("/FighterTwo/")
+@app.route("/pick/")
 def f2():
 	return render_template(
-		'FighterTwo.html',**locals())
+		'pick.html',**locals())
 
 @app.route("/fight/")
 def fight():
