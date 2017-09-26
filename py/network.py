@@ -38,6 +38,8 @@ def predict(agent, f1, f2):
 #	test = [2, 3, 4, 5, 6]
 #	print test
 	testing = 0
+	no_f1 = True
+	no_f2 = True
 	if testing:
 		for index, row in enumerate(dataset):
                 	if index == f1:
@@ -46,20 +48,31 @@ def predict(agent, f1, f2):
                         	F2 = list(dataset[index])
 	else:
 		for row in dataset:
-			print row
-			print row[0]
+#			print row
+#			print row[0]
 			if row[0] == f1:
 				F1 = list(row)
-				print F1
+				no_f1 = False
+#				print F1
 			elif row[0] == f2:
 				F2 = list(row)
-				print F2	
+				no_f1 = False
+#				print F2
 	
+	if no_f1 and no_f2:
+		print "Neither fighter exists in our database, try again!"
+		sys.exit(1)
+	elif no_f1:
+		print "Fighter One does not exist in our database, try again!"
+		sys.exit(1)
+	elif no_f2:
+		print "Fighter Two does not exist in our data base, try again!"
+		sys.exit(1)
 	F1 = F1[1:]
 	F2 = F2[1:]
-	print F1, F2
+#	print F1, F2
 	X = np.array([F1 + F2])
-	print X, "\n"
+#	print X, "\n"
 	print agent.model.predict(X)
 
 def train(agent):
