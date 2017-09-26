@@ -35,8 +35,7 @@ Finally we can start the environment and simulate some fights!
 ```
 docker run -it --rm --name Sim -v ~/root:/root -p 3000:3000 scollet42/python-slim:latest bin/bash
 ```
-If using scollet42/python-slim:latest" 
-doesn't work, try the following:
+If using "scollet42/python-slim:latest" doesn't work, try the following:
 ```
 docker images
 ```
