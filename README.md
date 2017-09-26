@@ -5,7 +5,7 @@ Get docker
 
 get this image
 
-docker run -it --rm --name Abathur -v ~/root:/root -p 3000:3000 a0dd1a55a687 bin/bash
+docker run -it --rm --name Abathur -v ~/root:/root -p 3000:3000 python-slim bin/bash
 
 git clone work
 
