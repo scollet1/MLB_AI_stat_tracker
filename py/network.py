@@ -29,23 +29,35 @@ SAVE_MODEL = "../Trained.h5"
 
 def predict(agent, f1, f2):
 	agent.model.load_weights(SAVE_MODEL)
-	dataset = np.loadtxt(FIGHT_FILE_NAME, dtype={'names': ('name', 'height', 'weight', 'reach', 'wins', 'losses', 'draws', 'no_contest'),
-						    'formats': ('str', np.float, np.float, np.float, np.float, np.float, np.float, np.float)}, delimiter=',')
+	dataset = np.loadtxt(FIGHT_FILE_NAME, dtype={'names': ('name', 'weight', 'height', 'reach', 'wins', 'losses', 'draws', 'no_contest'),
+          'formats': ('|S15', np.float, np.float, np.float, np.float, np.float, np.float, np.float)}, delimiter=',')
+#	print dataset
 	F1 = []
 	F2 = []
-	print f1, f2
+#	print f1, f2
 #	test = [2, 3, 4, 5, 6]
 #	print test
-	for row in enumerate(dataset):
-		if row[0] == f1:
-			F1 = list(row)
-#			print F1p
-		elif row[0] == f2:
-			F2 = list(row)
-#			print F2
+	testing = 0
+	if testing:
+		for index, row in enumerate(dataset):
+                	if index == f1:
+                	        F1 = list(dataset[index])
+                	elif index == f2:
+                        	F2 = list(dataset[index])
+	else:
+		for row in dataset:
+			print row
+			print row[0]
+			if row[0] == f1:
+				F1 = list(row)
+				print F1
+			elif row[0] == f2:
+				F2 = list(row)
+				print F2	
+	
 	F1 = F1[1:]
 	F2 = F2[1:]
-#	print F1, F2
+	print F1, F2
 	X = np.array([F1 + F2])
 	print X, "\n"
 	print agent.model.predict(X)
