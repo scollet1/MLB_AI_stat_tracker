@@ -62,4 +62,7 @@ and for predictions...
 ```
 python run.py --predict "Fighter Name" "Fighter Name"
 ```
-## Enjoy!
+### Enjoy!
+
+## TODO - Flaskerizing the program to run from web!
+Keep an eye on this
