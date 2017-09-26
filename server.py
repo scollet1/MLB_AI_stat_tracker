@@ -1,6 +1,9 @@
 from flask import Flask, flash, redirect, render_template, request, session, abort
 import random
- 
+import sys
+sys.path.insert(0, 'py/')
+from run import run
+
 app = Flask(__name__)
  
 @app.route("/")
@@ -9,20 +12,22 @@ def index():
 	return render_template(
 		'index.html',**locals())
 
-@app.route("/FighterOne/")
+@app.route("/pick/", methods=['GET', 'POST'])
 def f1():
-	return render_template(
-		'FighterOne.html',**locals())
-
-@app.route("/pick/")
-def f2():
+	if request.method == 'POST':
+		f1 = request.form['submit']
+		f2 = request.form['submit2']
+		f3 = int(request.form['fight'])
+		if f3 is not None:
+			print "Running Simulation..."
+			run("predict", f1, f2)
 	return render_template(
 		'pick.html',**locals())
 
 @app.route("/fight/")
 def fight():
 	return render_template(
-		'FighterTwo.html',**locals())
+		'fight.html',**locals())
 
 @app.route("/about/")
 def pick(options):

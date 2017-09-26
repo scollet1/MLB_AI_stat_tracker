@@ -36,12 +36,12 @@ def predict(agent, f1, f2):
 	print f1, f2
 #	test = [2, 3, 4, 5, 6]
 #	print test
-	for index, row in enumerate(dataset):
-		if index == f1:
-			F1 = list(dataset[index])
-#			print F1
-		elif index == f2:
-			F2 = list(dataset[index])
+	for row in enumerate(dataset):
+		if row[0] == f1:
+			F1 = list(row)
+#			print F1p
+		elif row[0] == f2:
+			F2 = list(row)
 #			print F2
 	F1 = F1[1:]
 	F2 = F2[1:]

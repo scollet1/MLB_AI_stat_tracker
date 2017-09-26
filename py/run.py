@@ -74,7 +74,7 @@ def write_file(fight_data, fname):
                                 array.append(fighter.no_contest)
                         	writer.writerow(array)
 
-def run(arguments):
+def run(arguments, f1, f2):
 	for arg in arguments:
 		if arg == 'train':
 			agent = objects.Agent(14, 2)
@@ -85,7 +85,7 @@ def run(arguments):
 			agent = objects.Agent(14, 2)
 			fight_data = construct.fights('../xml_data/schedule.xml')
 			write_file(fight_data, FIGHT_FILE_NAME)
-			network.predict(agent, random.randint(0, 100), random.randint(0, 100))
+			network.predict(agent, f1, f2)
 	print "Arguemnts Processed!"
 
 if __name__ == "__main__":
