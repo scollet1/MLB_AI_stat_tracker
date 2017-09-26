@@ -35,15 +35,12 @@ Finally we can start the environment and simulate some fights!
 ```
 docker run -it --rm --name Sim -v ~/root:/root -p 3000:3000 scollet42/python-slim:latest bin/bash
 ```
-If using 
-```
-scollet42/python-slim:latest
-``` 
+If using scollet42/python-slim:latest" 
 doesn't work, try the following:
 ```
 docker images
 ```
-This will give a list of all docker images. Look for something that says "IMAGE ID" and use that instead of scollet42...
+This will give a list of all docker images. Look for something that says "IMAGE ID" and use that instead of "scollet42/python-slim:latest"
 
 You should now see a bash terminal ready to go. The next step is git cloning this very repository!
 
