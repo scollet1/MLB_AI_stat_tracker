@@ -85,7 +85,7 @@ def run(arg, f1, f2):
 		fight_data = construct.fights('../xml_data/schedule.xml')
 		write_file(fight_data, FIGHT_FILE_NAME)
 		network.predict(agent, f1.replace(" ", ""), f2.replace(" ", ""))
-	print "Arguemnts Processed!"
+	print "Arguments Processed!"
 
 if __name__ == "__main__":
     run(sys.argv[1], sys.argv[2], sys.argv[3])
