@@ -75,7 +75,7 @@ def write_file(fight_data, fname):
                         	writer.writerow(array)
 
 def run(arg, f1, f2):
-	if arg == 'train':
+	if arg == '--train':
 		agent = objects.Agent(14, 2)
            	fight_data = construct.fights('../xml_data/schedule.xml')
             	write_file(fight_data, TRAIN_FILE_NAME)

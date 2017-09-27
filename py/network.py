@@ -65,9 +65,9 @@ def predict(agent, f1, f2):
 	elif no_f1:
 		print "Fighter One does not exist in our database, try again!"
 		sys.exit(1)
-	elif no_f2:
-		print "Fighter Two does not exist in our data base, try again!"
-		sys.exit(1)
+#	elif no_f2:
+#		print "Fighter Two does not exist in our data base, try again!"
+#		sys.exit(1)
 	F1 = F1[1:]
 	F2 = F2[1:]
 #	print F1, F2
