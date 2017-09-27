@@ -20,17 +20,10 @@ import construct
 import network
 import csv
 from copy import deepcopy
-#class Person_Object():
 
-#class Agent():
 EPOCHS = 500
 TRAIN_FILE_NAME = "../train_data.csv"
 FIGHT_FILE_NAME = "../predict_data.csv"
-#run(sys.argv[1])
-#get.MMA_EVENTS()
-#fighter_list = parse('data.xml')
-#feed(fighter_list)
-#def pull(data_file):
 
 def write_file(fight_data, fname):
     with open(fname, 'wb') as csvfile:
@@ -54,13 +47,10 @@ def write_file(fight_data, fname):
 			writer.writerow(array)
 	elif fname == FIGHT_FILE_NAME:
 		i = 0
-#		sorted(fight_data)
 		for each, fight in fight_data.items():
 			windex = 0
-#			sorted(fight)
 			for each, fighter in fight.items():
 				i += 1
-#				print i
 	                        array = []
 				if each == 'results':
                                         continue
