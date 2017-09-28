@@ -1,7 +1,7 @@
 # MMA Fight Predictor
 rolls off the tongue, doesn't it?
 
-MMA Fight Predictor is my implementation of a neural network classifier with data from the Sportsradar API. The algorithm analyzes fighter staistics and runs simulated fights in order to classify who is a winner in any fight. The data is pulled from real-world sources via XML
+MMA Fight Predictor is my implementation of a neural network classifier with data from the Sportsradar API. The algorithm analyzes fighter staistics and runs simulated fights in order to classify who is a winner in any fight. The data is pulled from real-world sources via XML get requests.
 
 I programmed this entirely on the computers at my school's lab. Due to the restrictions on user privileges, dependencies were near impossible to install. To make environment setup easier, I recommend using Docker.
 
