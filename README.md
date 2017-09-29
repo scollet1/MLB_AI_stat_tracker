@@ -19,10 +19,6 @@ Run to start the machine
 ```
 docker-machine start default
 ```
-I usually start by resetting my machine due to its constant use.
-```
-docker-machine restart default
-```
 Set the environment variables.
 ```
 eval $(docker-machine env default)
