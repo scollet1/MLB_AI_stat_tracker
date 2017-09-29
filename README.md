@@ -15,8 +15,11 @@ If you do not have a machine ready to go:
 ```
 docker-machine create default
 ```
-
-I usually start by resetting my machine.
+Run to start the machine
+```
+docker-machine start default
+```
+I usually start by resetting my machine due to its constant use.
 ```
 docker-machine restart default
 ```
