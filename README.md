@@ -23,26 +23,15 @@ Set the environment variables.
 ```
 eval $(docker-machine env default)
 ```
-Docker uses a thing called an "image" in order to construct the environment. I have made a custom image with all the dependencies I need for this project. You're welcome to modify it to suit your needs.
 
-Here is the [image](https://hub.docker.com/r/scollet42/python-slim/).
+Here is the [image](https://hub.docker.com/r/scollet42/python-slim/) I used for this project.
 
 Here is the command to pull it.
-
-```
-docker pull scollet42/python-slim
-```
 Finally we can start the environment and simulate some fights!
-```
-docker run -it --rm --name Sim -v ~/root:/root -p 3000:3000 scollet42/python-slim:latest bin/bash
-```
-If using "scollet42/python-slim:latest" doesn't work, try the following:
-```
-docker images
-```
-This will give a list of all docker images. Look for something that says "IMAGE ID" and use that instead of "scollet42/python-slim:latest"
 
-You should now see a bash terminal ready to go. The next step is git cloning this very repository!
+```
+docker run -it --rm --name Sim -v ~/root:/root scollet42/python-slim:latest bin/bash
+```
 
 ```
 git clone https://github.com/scollet1/MMA_Fight_Predictor.git Sim
@@ -60,10 +49,10 @@ and for predictions...
 python run.py --predict "Fighter Name" "Fighter Name"
 ```
 You should see a result like this
+
 ![alt text](https://github.com/scollet1/scollet1.github.io/blob/master/images/Screen%20Shot%202017-09-26%20at%208.31.25%20PM.png)
 
 ### Enjoy!
 
 
 ## TODO - Flaskerizing the program to run from web!
-Keep an eye on this
